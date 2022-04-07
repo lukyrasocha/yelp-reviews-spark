@@ -6,4 +6,4 @@ In 2019, an [interesting study](https://ny.eater.com/2019/1/18/18183973/authenti
 
 ## Assignment
 
-Test the study by analysing large scale data (yelp reviews) using `spark` as a part of the LSDA course at [IT University of Copenhagen](www.itu.dk)
+Test the study by analysing large scale data (yelp reviews) using `spark` as a part of the LSDA course at [IT University of Copenhagen](https://www.itu.dk)
