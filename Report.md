@@ -67,6 +67,7 @@ Since the study is concerning only restaurants (cuisines) I first filtered only 
 
 ```python
 restaurants = bs[bs.categories.contains('Restaurants')]
+# Join restaurant businesses with reviews so I can filter them based on the review text
 res_bus = restaurants.join(rs, "business_id")
 
 # Find reviews that have a variant of the word "authentic"
@@ -76,5 +77,30 @@ res_bus_auth_percentage = (res_bus_auth.count()/res_bus.count())*100
 print(f"Percentage of authentic reviews out of all restaurants reviews {res_bus_auth_percentage} %")
 ```
 I used a regular expression for the word 'authentic' to find all the reviews that contain any form of such word.
-Since the [article](https://ny.eater.com/2019/1/18/18183973/authenticity-yelp-reviews-white-supremacy-trap) studies reviews that have some sort of authentic language, this query assures me, that in my data set, there are reviews that contain authenticity language and thus can be analysed further. 
+Since the [article](https://ny.eater.com/2019/1/18/18183973/authenticity-yelp-reviews-white-supremacy-trap) studies reviews that contain authenticity language, this query assures me, that in my data set, there are reviews that satisfy that condition and thus those reviews can be analysed further. 
 
+The answer for this query was `2.58 %` which doesn't seem like a lot, but given the fact that we have around `6.5 million` reviews it still serves like a good enough data set.
+
+### How many reviews contain "legitimate" grouped by restaurant categories?
+```python
+res_bus_exploded = res_bus.withColumn('single_categories', explode(split(col('categories'), ', ')))
+#Group them by the single categories and count how many of each single category are there
+res_bus_grouped = res_bus_exploded.groupBy("single_categories").count()
+res_bus_grouped = res_bus_grouped.withColumnRenamed("count", "all_count")
+
+# Now lets do the same but only with the ones containing the word 'legitimate'
+
+# Reviews containing the word 'legitimate'
+res_bus_legitimate = res_bus.filter(res_bus.text.contains("legitimate"))
+
+#rs_bus_legitimate = rs_legitimate.join(bs, "business_id")
+res_bus_legit_exploded = res_bus_legitimate.withColumn('single_categories', explode(split(col('categories'), ', ')))
+res_bus_legit_grouped = res_bus_legit_exploded.groupBy("single_categories").count()
+res_bus_legit_grouped = res_bus_legit_grouped.withColumnRenamed("count", "legit_count")
+
+# Normalize by the count - so you know what percentage of the category contains the word legitimate
+legit_ratio = res_bus_legit_grouped.join(res_bus_grouped, "single_categories")
+legit_ratio = legit_ratio.withColumn('ratio', legit_ratio.legit_count/legit_ratio.all_count)
+legit_ratio.sort('all_count', ascending=False).show()
+
+```
