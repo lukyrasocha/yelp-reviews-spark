@@ -60,4 +60,8 @@ user_names = us.join(avgStars, us.user_id == avgStars.user_id, "inner") \
 ```
 
 
-
+```
+def query():
+  part = 1
+  return part
+```
