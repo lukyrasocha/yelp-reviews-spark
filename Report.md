@@ -51,8 +51,12 @@ business_names.show()
 ```
 ## Query 5 - Find an ordered list of users based on the average star count given in all their reviews
 ```
-avgStars = rs.groupBy('user_id').avg('stars')
-user_names = us.join(avgStars, us.user_id == avgStars.user_id, "inner").orderBy('avg(stars)',ascending=False).select("name") 
+avgStars = rs.groupBy('user_id') \
+             .avg('stars')
+             
+user_names = us.join(avgStars, us.user_id == avgStars.user_id, "inner") \
+               .orderBy('avg(stars)',ascending=False) \
+               .select("name") 
 ```
 
 
