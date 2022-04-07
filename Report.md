@@ -59,3 +59,21 @@ user_names = us.join(avgStars, us.user_id == avgStars.user_id, "inner") \
                .select("name") 
 ```
 
+# 3.2 Authenticity Study
+## 3.2.1 Data Exploration
+### What is the percentage of reviews containing a variant of the word 'authentic'?
+
+Since the study is concerning only restaurants (cuisines) I first filtered only the businesses which contain `Restaurant` in their category list. (Here comes my first assumption _I assume that all cuisines have 'Restaurant' in their category list_ (some Businesses will not have 'Restaurant' associated with them but only for example 'Indian' which means that I might lose some of the relevant data)).
+
+```python
+restaurants = bs[bs.categories.contains('Restaurants')]
+res_bus = restaurants.join(rs, "business_id")
+
+# Find reviews that have a variant of the word "authentic"
+res_bus_auth = res_bus.filter(res_bus.text.rlike('[Aa]uthentic[a-z]*'))
+res_bus_auth_percentage = (res_bus_auth.count()/res_bus.count())*100
+
+print(f"Percentage of authentic reviews out of all restaurants reviews {res_bus_auth_percentage} %")
+```
+
+
