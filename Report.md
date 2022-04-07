@@ -59,6 +59,6 @@ user_names = us.join(avgStars, us.user_id == avgStars.user_id, "inner") \
                .select("name") 
 ```
 
-```{python}
+```python
 print("Hello Python!")
 ```
