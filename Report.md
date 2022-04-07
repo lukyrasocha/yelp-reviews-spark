@@ -50,7 +50,7 @@ business_names = bs.join(grFiltered, bs.business_id == grFiltered.business_id, "
 business_names.show()
 ```
 ## Query 5 - Find an ordered list of users based on the average star count given in all their reviews
-```
+```{python}
 avgStars = rs.groupBy('user_id') \
              .avg('stars')
              
