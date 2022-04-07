@@ -75,5 +75,6 @@ res_bus_auth_percentage = (res_bus_auth.count()/res_bus.count())*100
 
 print(f"Percentage of authentic reviews out of all restaurants reviews {res_bus_auth_percentage} %")
 ```
-
+I used a regular expression for the word 'authentic' to find all the reviews that contain any form of such word.
+Since the [article](https://ny.eater.com/2019/1/18/18183973/authenticity-yelp-reviews-white-supremacy-trap) studies reviews that have some sort of authentic language, this query assures me, that in my data set, there are reviews that contain authenticity language and thus can be analysed further. 
 
