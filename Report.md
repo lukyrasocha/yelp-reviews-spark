@@ -93,7 +93,6 @@ res_bus_grouped = res_bus_grouped.withColumnRenamed("count", "all_count")
 # Reviews containing the word 'legitimate'
 res_bus_legitimate = res_bus.filter(res_bus.text.contains("legitimate"))
 
-#rs_bus_legitimate = rs_legitimate.join(bs, "business_id")
 res_bus_legit_exploded = res_bus_legitimate.withColumn('single_categories', explode(split(col('categories'), ', ')))
 res_bus_legit_grouped = res_bus_legit_exploded.groupBy("single_categories").count()
 res_bus_legit_grouped = res_bus_legit_grouped.withColumnRenamed("count", "legit_count")
@@ -102,5 +101,47 @@ res_bus_legit_grouped = res_bus_legit_grouped.withColumnRenamed("count", "legit_
 legit_ratio = res_bus_legit_grouped.join(res_bus_grouped, "single_categories")
 legit_ratio = legit_ratio.withColumn('ratio', legit_ratio.legit_count/legit_ratio.all_count)
 legit_ratio.sort('all_count', ascending=False).show()
+```
+-> How does `explode()` work -> lets say that we have `row('John', ['Java', 'Scala'])` -> if we explode the list we will get -> `row('John', 'Java'), row('John', 'Scala')` which helps to separate the string of categories into seperate individual categories (so I can for example group by the individual categories later).
 
+This query already could give some insight into the fact, that some cuisines might be more prone to authentic language than others.
+
+```
++--------------------+-----------+---------+--------------------+
+|   single_categories|legit_count|all_count|               ratio|
++--------------------+-----------+---------+--------------------+
+|         Restaurants|       2250|  4201684|5.354995758843359E-4|
+|                Food|        625|  1133172|5.515491028722912E-4|
+|           Nightlife|        574|  1009498|5.685994424951807E-4|
+|                Bars|        554|   974747|5.683526084204414E-4|
+|American (Traditi...|        323|   733103|4.405929316889987E-4|
+|      American (New)|        360|   729264|4.936483907062463E-4|
+|  Breakfast & Brunch|        309|   646334|4.780809921805135E-4|
+|          Sandwiches|        238|   475626|5.003931660590464E-4|
+|             Mexican|        207|   401693|5.153189127019888E-4|
+|             Burgers|        180|   395129|4.555474288143872E-4|
+|               Pizza|        217|   394428|5.501637814759601E-4|
+|             Italian|        209|   392125|5.329933057060886E-4|
+|             Seafood|        157|   343191|4.574712040816921E-4|
+|            Japanese|        166|   309510|5.363316209492424E-4|
+|Event Planning & ...|        170|   298962|5.686341407938133E-4|
+|             Chinese|        136|   261527|5.200227892339988E-4|
+|          Sushi Bars|        137|   254215|5.389139114529041E-4|
+|               Salad|        108|   249166|4.334459757751860...|
+|         Steakhouses|        116|   243536|4.763156165823533E-4|
+|        Asian Fusion|        130|   240279|5.410377103284099E-4|
++--------------------+-----------+---------+--------------------+
+
++-----------------+-----------+---------+--------------------+
+|single_categories|legit_count|all_count|               ratio|
++-----------------+-----------+---------+--------------------+
+|           Korean|         59|    93732|6.294541885375326E-4|
+|           Indian|         46|    79867|5.759575293926152E-4|
+|         Japanese|        166|   309510|5.363316209492424E-4|
+|          Italian|        209|   392125|5.329933057060886E-4|
+|          Chinese|        136|   261527|5.200227892339988E-4|
+|          Mexican|        207|   401693|5.153189127019888E-4|
+|           French|         47|   103875|4.524669073405535...|
+|            Greek|         34|    75500|4.503311258278146E-4|
++-----------------+-----------+---------+--------------------+
 ```
