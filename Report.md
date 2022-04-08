@@ -158,5 +158,5 @@ res_bus = res_bus.withColumn("auth_lang", res_bus.text.rlike('([Ll]egitimate)|([
 res_bus_cube = res_bus.cube("state", "city", "auth_lang").count().orderBy("count", ascending=False)
 res_bus_cube.show()
 ```
-This query returns a table in which we see all the possible combinations of state, city and false/true for authenticity language. One could go deeper and use this query to analyse if there is a certain region where people tend to use authentic language more but since that was not the focus of the article I didn't analyse this further. (also the data set itself does not have any information about the origin of the users who gave the reviews so conclusion about this would also be more difficult).
+This query returns a table in which we see all the possible combinations of state, city and false/true for authenticity language. One could go deeper and use this query to analyse if there is a certain region where people tend to use authentic language more but since that was not the focus of the article I didn't analyse this further. (also the data set itself does not have any information about the origin of the users who gave the reviews so conclusion about this would also be more difficult). To make any area-comparisson viable one would must also normalize by for example the number of restaurants in the area, the popularity of the restaurants etc.
 
