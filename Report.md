@@ -145,3 +145,18 @@ This query already could give some insight into the fact, that some cuisines mig
 |            Greek|         34|    75500|4.503311258278146E-4|
 +-----------------+-----------+---------+--------------------+
 ```
+The result is sorted and also an additional column `ratio` is added, that is because more reviews should generally mean more reviews of all different types (including reviews with authentic language). So to compare the different categories I used the ratio instead. 
+
+In the second table I filtered some specific cuisines of interest where we can see that for example 'Mexican cuisine' (which was one of the main focuses of the article) has larger fraction of reviews containing 'legitimate' than 'French cuisine'.
+
+### Is there a difference in the amount of authenticity languiage used in the different areas?
+
+```python
+res_bus = res_bus.withColumn("auth_lang", res_bus.text.rlike('([Ll]egitimate)|([Aa]uthentic[a-z]*)'))
+
+#The cube function “takes a list of columns and applies aggregate expressions to all possible combinations of the grouping columns”
+res_bus_cube = res_bus.cube("state", "city", "auth_lang").count().orderBy("count", ascending=False)
+res_bus_cube.show()
+```
+This query returns a table in which we see all the possible combinations of state, city and false/true for authenticity language. One could go deeper and use this query to analyse if there is a certain region where people tend to use authentic language more but since that was not the focus of the article I didn't analyse this further. (also the data set itself does not have any information about the origin of the users who gave the reviews so conclusion about this would also be more difficult).
+
