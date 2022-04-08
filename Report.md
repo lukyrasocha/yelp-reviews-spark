@@ -79,7 +79,7 @@ print(f"Percentage of authentic reviews out of all restaurants reviews {res_bus_
 I used a regular expression for the word 'authentic' to find all the reviews that contain any form of such word.
 Since the [article](https://ny.eater.com/2019/1/18/18183973/authenticity-yelp-reviews-white-supremacy-trap) studies reviews that contain authenticity language, this query assures me, that in my data set, there are reviews that satisfy that condition and thus those reviews can be analysed further. 
 
-The answer for this query was `2.58 %` which doesn't seem like a lot, but given the fact that we have around `6.5 million` reviews it still serves like a good enough data set.
+The answer for this query was `2.58 %` which doesn't seem like a lot, but given the fact that we have around `6.5 million` reviews it still serves like a good data set.
 
 ### How many reviews contain "legitimate" grouped by restaurant categories?
 ```python
