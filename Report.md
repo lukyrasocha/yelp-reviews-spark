@@ -79,7 +79,7 @@ print(f"Percentage of authentic reviews out of all restaurants reviews {res_bus_
 I used a regular expression for the word 'authentic' to find all the reviews that contain any form of such word.
 Since the [article](https://ny.eater.com/2019/1/18/18183973/authenticity-yelp-reviews-white-supremacy-trap) studies reviews that contain authenticity language, this query assures me, that in my data set, there are reviews that satisfy that condition and thus those reviews can be analysed further. 
 
-The answer for this query was `2.58 %` which doesn't seem like a lot, but given the fact that we have around `6.5 million` reviews it still serves like a good data set.
+The answer for this query was `2.58 %` which doesn't seem like a lot (compared to the article where he had `7 %`), but given the fact that we have around `6.5 million` reviews it still serves like a good data set.
 
 ### How many reviews contain "legitimate" grouped by restaurant categories?
 ```python
@@ -161,3 +161,14 @@ res_bus_cube.show()
 This query returns a table in which we see all the possible combinations of state, city and false/true for authenticity language. One could go deeper and use this query to analyse if there is a certain region where people tend to use authentic language more but since that was not the focus of the article I didn't analyse this further. (also the data set itself does not have any information about the origin of the users who gave the reviews so conclusion about this would also be more difficult). To make any area-comparisson viable one would must also normalize by for example the number of restaurants in the area, the popularity of the restaurants etc.
 
 ## 3.2.2 Hypothesis testing
+The hypothesis proposed in the article is that authenticity language is used to describe different characteristics for different cuisines (and by extension, makes it harder for non-white restaurant owners to enter the higher-end restaurant market). I will attempt to identify a difference in the relationship between authenticity language and typically negative words (dirty, cheap, rude)  in some of non-european cuisine compared to some of more european like cuisines. Doing so I will try to confirm the findings of the article that 85 % of Yelp reviewers connotes “authentic” with characteristics such as dirt floors, plastic stools, and other patrons who are non-white when reviewing non-European restaurants. 
+
+The researche in the article narrowed his data collection to reviews from New York, and focused his field even further by picking from Zagat’s top ten most popular cuisines in New York City: Mexican, Thai, Japanese, Chinese, French, Italian, Korean, Indian, Mediterranean and Soul food. I expanded this list by also looking into more south american cuisines (Argentine etc.) and more asian cuisines (Burmese, Vietnamese etc.) 
+
+I first looked into the average price range for these different cuisines, to see if the negative stereotypes are also reflected here. Because as the article says
+### Queries
+```python
+
+
+```
+For example lets consider an example: `This austrian restaurant was soo authentic, really made me feel like I was in the middle of Vienna. Plus their coffee was very cheap compared to the usual prices in the city`. We can see that this review is definitely positive, but since it contains the word `authentic` and also `cheap` we count it as a negative example of usage of `authenticity language`. Whereas review such as `This mexican restuarant with its cheap plastic tables reminded me of times when I visited Mexico for holidays`. We can see that even though, these two examples are basically in the same category one reflects the negative biased stereotypes that people have, whereas the other doesn't. So there are definitely a lot of flaws in this method.
