@@ -165,10 +165,56 @@ The hypothesis proposed in the article is that authenticity language is used to 
 
 The researche in the article narrowed his data collection to reviews from New York, and focused his field even further by picking from Zagat’s top ten most popular cuisines in New York City: Mexican, Thai, Japanese, Chinese, French, Italian, Korean, Indian, Mediterranean and Soul food. I expanded this list by also looking into more south american cuisines (Argentine etc.) and more asian cuisines (Burmese, Vietnamese etc.) 
 
-I first looked into the average price range for these different cuisines, to see if the negative stereotypes are also reflected here. Because as the article says
+I first looked into the average price range for these different cuisines, to see if the negative stereotypes are also reflected here. Because if non-european restaurants want to be seen as `authentic` for western society it means, that their prices should be generally lower than euopean cuisines, which leaves owners in trap of not being able to increase their prices to the same level as european cuisines charge.
+
 ### Queries
 ```python
-
-
+-===========================-
+|===EUROPE-LIKE-CUISINES====|
+-===========================-
++--------------------+------------------+                                                                                                  │
+|   single_categories|  avg(price_range)|                                                                                                  │
++--------------------+------------------+                                                                                                  │
+|     Modern European| 2.219686626357194|                                                                                                  │
+|            Austrian| 2.141304347826087|                                                                                                  │
+|             Italian| 2.052350917726905|                                                                                                  │
+|              French|2.5191470380031613|                                                                                                  │
+|American (Traditi...| 1.913789836466243|                                                                                                  │
+|    Eastern European|               2.0|                                                                                                  │
+|      American (New)|2.0853369370906725|                                                                                                  │
++--------------------+------------------+
+-=================-
+|===NON-EUROPE====|
+-=================-
++-------------------+------------------+
+|  single_categories|  avg(price_range)|
++-------------------+------------------+
+|            Mexican|1.6148022661351538|
+|            Turkish|1.8679124536029694|
+|               Thai|1.8210390892635422|
+|             Indian| 1.840243855778183|
+|            Chinese|1.6969313680224414|
+|      South African| 1.904635761589404|
+|         Indonesian| 1.944831959416614|
+|            African|  2.05050787438263|
+|          Mongolian|1.9854402192531688|
+|          Taiwanese| 1.494803827313098|
+|          Argentine| 2.043364681295716|
+|           Peruvian|1.6706760680215678|
+|           Japanese| 2.013904873063017|
+|     Latin American|1.8560295324036096|
+|           Filipino|1.4862918859041816|
+|         Vietnamese|1.4355559046635846|
+|          Pakistani|1.8790112297048291|
+|            Burmese|1.4759152215799614|
+|New Mexican Cuisine|2.0041539462489366|
+|    Persian/Iranian|1.8462052081014912|
++-------------------+------------------+
 ```
-For example lets consider an example: `This austrian restaurant was soo authentic, really made me feel like I was in the middle of Vienna. Plus their coffee was very cheap compared to the usual prices in the city`. We can see that this review is definitely positive, but since it contains the word `authentic` and also `cheap` we count it as a negative example of usage of `authenticity language`. Whereas review such as `This mexican restuarant with its cheap plastic tables reminded me of times when I visited Mexico for holidays`. We can see that even though, these two examples are basically in the same category one reflects the negative biased stereotypes that people have, whereas the other doesn't. So there are definitely a lot of flaws in this method.
+
+Comparing the two tables above, we can see that european cuisines are on average more expensive that non-european cuisines, which confirms the negative stereotype of what is considered authentic.
+
+
+The article also states that according to the research the restaurants most impacted by this difference serve Mexican and Chinese food which I can slighlty confirm based on the results.
+
+For example lets consider an example: `This austrian restaurant was soo authentic, really made me feel like I was in the middle of Vienna. Plus their coffee was very cheap compared to the usual prices in the city`. We can see that this review is definitely positive, but since it contains the word `authentic` and also `cheap` we count it as a negative example of usage of `authenticity language`. Whereas review such as `This mexican restuarant with its cheap plastic tables reminded me of times when I visited Mexico for holidays`. We can see that even though, these two examples are basically in the same category one reflects the negative biased stereotypes that people have, whereas the other doesn't. So there are definitely a lot of flaws in this method. The method also wouldn't catch a review for a French restaurant such as: `Old elegance at its best! Yes, the ambiance is lovely with all the fresh flowers` which also talks about authenticity but without directly stating the word `authentic`. (and we can imagine, that there are thousands of examples where people talk about south-american or south-asian cuisines using negative authentic language but not stating the words directly).
