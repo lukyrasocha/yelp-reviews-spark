@@ -165,7 +165,7 @@ The hypothesis proposed in the article is that authenticity language is used to 
 
 The researcher in the article narrowed his data collection to reviews from New York, and focused his field even further by picking from Zagat’s top ten most popular cuisines in New York City: Mexican, Thai, Japanese, Chinese, French, Italian, Korean, Indian, Mediterranean and Soul food. I expanded this list by also looking into more south american cuisines (Argentine etc.) and more asian cuisines (Burmese, Vietnamese etc.) 
 
-I initially looked into the average price range for these different cuisines, to see if the negative stereotypes are also reflected here. Because if non-european restaurants want to be seen as `authentic` for western society it means, that their prices should be generally lower than euopean cuisines, which leaves owners in trap of not being able to increase their prices to the same level as european cuisines charge.
+I initially looked into the average price range for these different cuisines, to see if the negative stereotypes are also reflected here. Because if non-european restaurants want to be seen as `authentic` for western society it means, that their prices should be generally lower than european cuisines, which leaves owners in trap of not being able to increase their prices to the same level as european cuisines charge.
 
 ### Queries
 ```
