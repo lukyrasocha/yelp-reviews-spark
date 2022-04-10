@@ -9,20 +9,20 @@ conf.set("spark.executor.memory", "2G")
 conf.set("spark.executor.instances", "4")
 
 spark = SparkSession.builder \
-                    .appName('template-application') \
-                    .config(conf=conf) \
-                    .getOrCreate()
+	            .appName('template-application') \
+		    .config(conf=conf) \
+		    .getOrCreate()
 
 bs = spark.read.json("/datasets/yelp/business.json")
 rs = spark.read.json ("/datasets/yelp/review.json")
-restaurants = bs[bs.categories.contains('Restaurants')]
+restaurants = bs[bs.categories.contains('Restaurants')] 
 restaurants = restaurants.withColumnRenamed('stars', 'business_stars')
 
-non_europe = ['South American', 'African','Mexican', 'Argentine', 'Bolivian', 'Chilean', 'Ecuadorian', 'Peruvian', \
-              'Uruguayan', 'Colombian', 'Paraguayan', 'Venezielean', 'Asian', 'Japanese', 'Chinese', 'Mongolian' , \
-              'Turkish', 'Korean','Indian','Pakistani','Bangladeshi','Thai','Singaporean', 'Brazilian', \
-              'Vietnamese', 'Indonesian', 'Cambodian', 'Burmese', 'Malaysian', 'Filipino', \
-              'Arab', 'Iranian','Taiwanese', 'Russian', 'Latin American']
+non_europe = ['South American', 'African','Mexican', 'Argentine', 'Bolivian', 'Chilean', 'Ecuadorian', 'Peruvian', 'Brazilian', \
+	      'Uruguayan', 'Colombian', 'Paraguayan', 'Venezielean', 'Asian', 'Japanese', 'Chinese', 'Mongolian' , \
+	      'Turkish', 'Korean','Indian','Pakistani','Bangladeshi','Thai','Singaporean', \
+	      'Vietnamese', 'Indonesian', 'Cambodian', 'Burmese', 'Malaysian', 'Filipino', \
+	      'Arab', 'Iranian','Taiwanese', 'Russian', 'Latin American']
 
 safe_cuisines = ['European', 'French', 'Italian', 'German', 'Danish', 'Greek', '^American', 'Austrian']
 
@@ -42,3 +42,4 @@ print('CORRELATION FOR NON_EUROPE')
 print(non_europe_corr.stat.corr('AuthComment', 'stars'))
 print('CORRELATION FOR EUROPE')
 print(europe_corr.stat.corr('AuthComment', 'stars'))
+

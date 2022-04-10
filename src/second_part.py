@@ -8,9 +8,9 @@ conf.set("spark.executor.memory", "2G")
 conf.set("spark.executor.instances", "4")
 
 spark = SparkSession.builder \
-                    .appName('template-application') \
-                    .config(conf=conf) \
-                    .getOrCreate()
+	            .appName('template-application') \
+		    .config(conf=conf) \
+		    .getOrCreate()
 
 bs = spark.read.json("/datasets/yelp/business.json")
 rs = spark.read.json ("/datasets/yelp/review.json")
@@ -40,6 +40,7 @@ res_bus_exploded = res_bus.withColumn('single_categories', explode(split(col('ca
 res_bus_grouped = res_bus_exploded.groupBy("single_categories").count()
 res_bus_grouped = res_bus_grouped.withColumnRenamed("count", "all_count")
 
+
 # Now lets do the same but only with the ones containing the word 'legitimate'
 
 # Reviews containing the word 'legitimate'
@@ -66,3 +67,5 @@ res_bus = res_bus.withColumn("auth_lang", res_bus.text.rlike('([Ll]egitimate)|([
 #The cube function “takes a list of columns and applies aggregate expressions to all possible combinations of the grouping columns”
 res_bus_cube = res_bus.cube("state", "city", "auth_lang").count().orderBy("count", ascending=False)
 res_bus_cube.show()
+
+

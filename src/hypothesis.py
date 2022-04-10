@@ -9,25 +9,24 @@ conf.set("spark.executor.memory", "2G")
 conf.set("spark.executor.instances", "4")
 
 spark = SparkSession.builder \
-                    .appName('template-application') \
-                    .config(conf=conf) \
-                    .getOrCreate()
+	            .appName('template-application') \
+		    .config(conf=conf) \
+		    .getOrCreate()
 
 bs = spark.read.json("/datasets/yelp/business.json")
 rs = spark.read.json ("/datasets/yelp/review.json")
-restaurants = bs[bs.categories.contains('Restaurants')]
+restaurants = bs[bs.categories.contains('Restaurants')] 
 restaurants = restaurants.withColumnRenamed('stars', 'business_stars')
 
-negative_words = ['dirty','kitsch','cheap','rude','simple','trash','horrible','disgusting', 'filthy', 'greasy','low-price','low-cost']
-positive_words = ['modern','fancy','elegant']
+negative_words = ['dirty','kitsch','cheap','rude','simple', 'filthy', 'greasy','low-price','low-cost']
 
-non_europe = ['South American', 'African','Mexican', 'Argentine', 'Bolivian', 'Chilean', 'Ecuadorian', 'Peruvian', \
-              'Uruguayan', 'Colombian', 'Paraguayan', 'Venezielean', 'Asian', 'Japanese', 'Chinese', 'Mongolian' , \
-              'Turkish', 'Korean','Indian','Pakistani','Bangladeshi','Thai','Singaporean','Brazilian', \
-              'Vietnamese', 'Indonesian', 'Cambodian', 'Burmese', 'Malaysian', 'Filipino', \
-              'Arab', 'Iranian','Taiwanese', 'Russian', 'Latin American']
+non_europe = ['South American', 'African','Mexican', 'Argentine', 'Bolivian', 'Chilean', 'Ecuadorian', 'Peruvian', 'Brazilian', \
+	      'Uruguayan', 'Colombian', 'Paraguayan', 'Venezielean', 'Asian', 'Japanese', 'Chinese', 'Mongolian' , \
+	      'Turkish', 'Korean','Indian','Pakistani','Bangladeshi','Thai','Singaporean', \
+	      'Vietnamese', 'Indonesian', 'Cambodian', 'Burmese', 'Malaysian', 'Filipino', \
+	      'Arab', 'Iranian','Taiwanese', 'Russian', 'Latin American']
 
-safe_cuisines = ['European', 'French', 'Italian', 'German', 'Danish', 'Greek', '^American', 'Austrian']
+safe_cuisines = ['European', 'French', 'Italian', 'Danish', '^American', 'Austrian']
 
 # Join reviews and business information together
 res_bus = restaurants.join(rs, "business_id")
@@ -52,7 +51,7 @@ print('============== GET AVERAGE PRICE RANGE PER CUISINE ================')
 europe_like.groupBy('single_categories').avg("price_range").show()
 non_europe.groupBy('single_categories').avg("price_range").show()
 
-# Get counts of reviews for each cuisine respectively
+# Get counts of reviews for each cuisine respectively 
 europe_counts = europe_like.groupBy('single_categories').count().withColumnRenamed("count", "review_count")
 non_europe_counts = non_europe.groupBy('single_categories').count().withColumnRenamed("count", "review_count")
 
@@ -60,7 +59,7 @@ non_europe_counts = non_europe.groupBy('single_categories').count().withColumnRe
 europe_like_auth = europe_like.filter(europe_like.text.rlike('([Ll]egitimate)|([Aa]uthentic[a-z]*)'))
 non_europe_auth = non_europe.filter(non_europe.text.rlike('([Ll]egitimate)|([Aa]uthentic[a-z]*)'))
 
-#Nummber of authentic reviews per each cuisine
+# Number of authentic reviews per each cuisine
 europe_like_auth_count = europe_like_auth.groupBy('single_categories').count().withColumnRenamed("count", "auth_count")
 non_europe_auth_count = non_europe_auth.groupBy('single_categories').count().withColumnRenamed("count", "auth_count")
 
@@ -109,3 +108,6 @@ print('-=================-')
 print('|===NON-EUROPE====|')
 print('-=================-')
 print(f"Ratio: {all_together_non_europe.stat.corr('ratio (%)', 'avg(stars)')}")
+
+
+
