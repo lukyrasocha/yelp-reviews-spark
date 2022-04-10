@@ -149,7 +149,7 @@ The result is sorted and also an additional column `ratio` is added, that is bec
 
 In the second table I filtered some specific cuisines of interest where we can see that for example 'Mexican cuisine' (which was one of the main focuses of the article) has a larger fraction of reviews containing 'legitimate' than 'French cuisine'.
 
-### Is there a difference in the amount of authenticity languiage used in the different areas?
+### Is there a difference in the amount of authenticity language used in the different areas?
 
 ```python
 res_bus = res_bus.withColumn("auth_lang", res_bus.text.rlike('([Ll]egitimate)|([Aa]uthentic[a-z]*)'))
