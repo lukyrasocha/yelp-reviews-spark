@@ -212,7 +212,7 @@ I initially looked into the average price range for these different cuisines, to
 +-------------------+------------------+
 ```
 
-Comparing the two tables above, we can see that european cuisines are on average more expensive that non-european cuisines, which confirms the negative stereotype of what is considered authentic.
+Comparing the two tables above, we can see that european cuisines are on average more expensive than non-european cuisines, which confirms the negative stereotype of what is considered authentic.
 
 As a next test I examined how much people tend to use authentic language (words such as `authentic, legitimate`) in the individual cuisines, and how many of those reviews contain negative stereotypes, biases and racism. Here I made a strong assumption that a negative use of authentic language occurs whenever the review with an authentic language also contains generally negative words such as: `dirty, kitch, cheap, simple, rude...`. (This method is obviously very simple, since to discover such reviews, one must also know the context in which the negative words are used).
 
