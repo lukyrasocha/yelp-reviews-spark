@@ -163,12 +163,12 @@ This query returns a table in which we see all the possible combinations of stat
 ## 3.2.2 Hypothesis testing
 The hypothesis proposed in the article is that authenticity language is used to describe different characteristics for different cuisines (and by extension, makes it harder for non-white restaurant owners to enter the higher-end restaurant market). I will attempt to identify a difference in the relationship between authenticity language and typically negative words (dirty, cheap, rude)  in some of non-european cuisine compared to some of more european like cuisines. Doing so I will try to confirm the findings of the article that 85 % of Yelp reviewers connotes “authentic” with characteristics such as dirt floors, plastic stools, and other patrons who are non-white when reviewing non-European restaurants. 
 
-The researche in the article narrowed his data collection to reviews from New York, and focused his field even further by picking from Zagat’s top ten most popular cuisines in New York City: Mexican, Thai, Japanese, Chinese, French, Italian, Korean, Indian, Mediterranean and Soul food. I expanded this list by also looking into more south american cuisines (Argentine etc.) and more asian cuisines (Burmese, Vietnamese etc.) 
+The researcher in the article narrowed his data collection to reviews from New York, and focused his field even further by picking from Zagat’s top ten most popular cuisines in New York City: Mexican, Thai, Japanese, Chinese, French, Italian, Korean, Indian, Mediterranean and Soul food. I expanded this list by also looking into more south american cuisines (Argentine etc.) and more asian cuisines (Burmese, Vietnamese etc.) 
 
-I first looked into the average price range for these different cuisines, to see if the negative stereotypes are also reflected here. Because if non-european restaurants want to be seen as `authentic` for western society it means, that their prices should be generally lower than euopean cuisines, which leaves owners in trap of not being able to increase their prices to the same level as european cuisines charge.
+I initially looked into the average price range for these different cuisines, to see if the negative stereotypes are also reflected here. Because if non-european restaurants want to be seen as `authentic` for western society it means, that their prices should be generally lower than euopean cuisines, which leaves owners in trap of not being able to increase their prices to the same level as european cuisines charge.
 
 ### Queries
-```python
+```
 -===========================-
 |===EUROPE-LIKE-CUISINES====|
 -===========================-
@@ -214,6 +214,55 @@ I first looked into the average price range for these different cuisines, to see
 
 Comparing the two tables above, we can see that european cuisines are on average more expensive that non-european cuisines, which confirms the negative stereotype of what is considered authentic.
 
+As a next test I examined how much people tend to use authentic language (words such as `authentic, legitimate`) in the individual cuisines, and how many of those reviews contain negative stereotypes, biases and racism. Here I made a strong assumption that a negative use of authentic language occurs whenever the review with an authentic language also contains generally negative words such as: `dirty, kitch, cheap, simple, rude...`. (This method is obviously very simple, since to discover such reviews, one must also know the context in which the negative words are used).
+
+Here are the results:
+
+```
+-=============-
+|===EUROPE====|
+-=============-
++--------------------+----------+------------+------------------+--------------+--------------------------+
+|   single_categories|auth_count|review_count|         ratio (%)|negative_count|ratio of negative auth (%)|
++--------------------+----------+------------+------------------+--------------+--------------------------+
+|     Modern European|       412|       15546|2.6501994082078992|            47|        11.407766990291263|
+|            Austrian|        31|         563| 5.506216696269982|             5|        16.129032258064516|
+|             Italian|     11731|      392125| 2.991648071405802|          1093|         9.317193760122752|
+|              French|      1916|      103875|1.8445246690734056|           165|          8.61169102296451|
+|American (Traditi...|      4027|      733103|0.5493088965670581|           471|        11.696051651353365|
+|    Eastern European|        10|          89|11.235955056179774|             3|                      30.0|
+|      American (New)|      3991|      729264|0.5472640909190636|           421|         10.54873465296918|
++--------------------+----------+------------+------------------+--------------+--------------------------+
+
+-=================-
+|===NON-EUROPE====|
+-=================-
++-------------------+----------+------------+------------------+--------------+--------------------------+
+|  single_categories|auth_count|review_count|         ratio (%)|negative_count|ratio of negative auth (%)|
++-------------------+----------+------------+------------------+--------------+--------------------------+
+|            Mexican|     25832|      401693| 6.430781716385399|          2719|        10.525704552493032|
+|            Turkish|       469|        7888| 5.945740365111562|            28|         5.970149253731343|
+|               Thai|      9012|      134965| 6.677286703960286|           782|         8.677319130048824|
+|             Indian|      5724|       79867|  7.16691499618115|           489|         8.542976939203355|
+|            Chinese|     14493|      261527| 5.541684032623782|          1989|          13.7238666942662|
+|         Indonesian|       182|        1621|11.227637260950031|            12|         6.593406593406594|
+|            African|       276|       10875|2.5379310344827584|            22|         7.971014492753622|
+|          Mongolian|        79|        5876|1.3444520081688223|             8|        10.126582278481013|
+|          Taiwanese|      1582|       22432| 7.052425106990014|           195|        12.326169405815424|
+|          Argentine|       142|        3891|3.6494474428167565|             5|        3.5211267605633805|
+|           Peruvian|       573|        7364| 7.781097229766432|            35|         6.108202443280978|
+|           Japanese|      9343|      309510| 3.018642370198055|          1118|         11.96617788718827|
+|     Latin American|      3879|       54212| 7.155242381760496|           330|         8.507347254447023|
+|           Filipino|       820|       14815|5.5349308133648325|            83|        10.121951219512196|
+|         Vietnamese|      5056|       90091| 5.612103317756491|           604|         11.94620253164557|
+|          Pakistani|      2168|       29198|7.4251661072676205|           218|        10.055350553505535|
+|            Burmese|        62|         544|11.397058823529411|             9|        14.516129032258066|
+|New Mexican Cuisine|       723|       20053|3.6054455692415095|            70|         9.681881051175658|
+|    Persian/Iranian|       511|        9138| 5.592033267673451|            38|         7.436399217221135|
+|        Bangladeshi|        68|         643| 10.57542768273717|             6|         8.823529411764707|
++-------------------+----------+------------+------------------+--------------+--------------------------+
+```
+Looking at the ratio of the usage of authentic language, we can see that on average people use non-european restaurants are in the lead. That makes sense, since I believe that western society is more prone to look for `authenticity` in places that are foreign to them, which can also be very problematic. Furthermore looking into the ratio of how many of those authentic reviews were also negative 
 
 The article also states that according to the research the restaurants most impacted by this difference serve Mexican and Chinese food which I can slighlty confirm based on the results.
 
