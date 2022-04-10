@@ -147,7 +147,7 @@ This query already could give some insight into the fact, that some cuisines mig
 ```
 The result is sorted and also an additional column `ratio` is added, that is because more reviews should generally mean more reviews of all different types (including reviews with authentic language). So to compare the different categories I used the ratio instead. 
 
-In the second table I filtered some specific cuisines of interest where we can see that for example 'Mexican cuisine' (which was one of the main focuses of the article) has larger fraction of reviews containing 'legitimate' than 'French cuisine'.
+In the second table I filtered some specific cuisines of interest where we can see that for example 'Mexican cuisine' (which was one of the main focuses of the article) has a larger fraction of reviews containing 'legitimate' than 'French cuisine'.
 
 ### Is there a difference in the amount of authenticity languiage used in the different areas?
 
