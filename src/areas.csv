@@ -1,0 +1,4049 @@
+,state,city,auth_lang,count
+0,,,,4201684
+1,,,False,4090716
+2,NV,,,1391673
+3,NV,,False,1361138
+4,,Las Vegas,,1242711
+5,NV,Las Vegas,,1242697
+6,,Las Vegas,False,1215480
+7,NV,Las Vegas,False,1215467
+8,AZ,,,1191691
+9,AZ,,False,1162316
+10,ON,,,574245
+11,ON,,False,553197
+12,,Phoenix,,427491
+13,AZ,Phoenix,,427491
+14,,Phoenix,False,416571
+15,AZ,Phoenix,False,416571
+16,,Toronto,,376585
+17,ON,Toronto,,376576
+18,,Toronto,False,363174
+19,ON,Toronto,False,363165
+20,NC,,,272619
+21,NC,,False,265464
+22,AZ,Scottsdale,,229660
+23,,Scottsdale,,229660
+24,OH,,,227182
+25,,Scottsdale,False,225078
+26,AZ,Scottsdale,False,225078
+27,OH,,False,221243
+28,,Charlotte,,208501
+29,NC,Charlotte,,208501
+30,PA,,,204438
+31,NC,Charlotte,False,203198
+32,,Charlotte,False,203198
+33,PA,,False,198426
+34,,Pittsburgh,,162104
+35,PA,Pittsburgh,,162104
+36,,Pittsburgh,False,156977
+37,PA,Pittsburgh,False,156977
+38,QC,,,137992
+39,QC,,False,133872
+40,AZ,Tempe,,118080
+41,,Tempe,,118080
+42,,Montréal,,117113
+43,QC,Montréal,,117113
+44,,Tempe,False,114944
+45,AZ,Tempe,False,114944
+46,QC,Montréal,False,113565
+47,,Montréal,False,113565
+48,,Henderson,,112874
+49,NV,Henderson,,112874
+50,,,True,110968
+51,,Henderson,False,110360
+52,NV,Henderson,False,110360
+53,WI,,,93488
+54,WI,,False,90429
+55,,Mesa,,89690
+56,AZ,Mesa,,89690
+57,AZ,Chandler,,87851
+58,,Chandler,,87851
+59,,Mesa,False,86606
+60,AZ,Mesa,False,86606
+61,AZ,Chandler,False,85272
+62,,Chandler,False,85272
+63,OH,Cleveland,,82699
+64,,Cleveland,,82699
+65,OH,Cleveland,False,80177
+66,,Cleveland,False,80177
+67,,Madison,,74040
+68,WI,Madison,,74040
+69,WI,Madison,False,71438
+70,,Madison,False,71438
+71,AZ,Gilbert,,70136
+72,,Gilbert,,70136
+73,AZ,Gilbert,False,68854
+74,,Gilbert,False,68854
+75,AB,,,64029
+76,,Calgary,,62780
+77,AB,Calgary,,62777
+78,AB,,False,61867
+79,,Calgary,False,60657
+80,AB,Calgary,False,60654
+81,AZ,Glendale,,56257
+82,,Glendale,,56257
+83,AZ,Glendale,False,54848
+84,,Glendale,False,54848
+85,,Mississauga,,41553
+86,ON,Mississauga,,41553
+87,,Mississauga,False,39932
+88,ON,Mississauga,False,39932
+89,ON,Markham,,39862
+90,,Markham,,39862
+91,ON,Markham,False,38434
+92,,Markham,False,38434
+93,NV,,True,30535
+94,,Peoria,,30319
+95,AZ,Peoria,,30319
+96,,Peoria,False,29719
+97,AZ,Peoria,False,29719
+98,AZ,,True,29375
+99,IL,,,28741
+100,IL,,False,27626
+101,,Las Vegas,True,27231
+102,NV,Las Vegas,True,27230
+103,NV,North Las Vegas,,25336
+104,,North Las Vegas,,25336
+105,,North Las Vegas,False,24683
+106,NV,North Las Vegas,False,24683
+107,,Champaign,,21258
+108,IL,Champaign,,21258
+109,ON,,True,21048
+110,IL,Champaign,False,20352
+111,,Champaign,False,20352
+112,,Richmond Hill,,19856
+113,ON,Richmond Hill,,19853
+114,,Surprise,,19735
+115,AZ,Surprise,,19735
+116,,Surprise,False,19392
+117,AZ,Surprise,False,19392
+118,,Richmond Hill,False,18986
+119,ON,Richmond Hill,False,18983
+120,,Goodyear,,16016
+121,AZ,Goodyear,,16016
+122,,Goodyear,False,15785
+123,AZ,Goodyear,False,15785
+124,ON,Scarborough,,14864
+125,,Scarborough,,14864
+126,,North York,,14462
+127,ON,North York,,14457
+128,SC,,,14401
+129,,Scarborough,False,14276
+130,ON,Scarborough,False,14276
+131,SC,,False,13964
+132,,North York,False,13833
+133,ON,North York,False,13828
+134,OH,Lakewood,,13633
+135,,Lakewood,,13633
+136,,Toronto,True,13411
+137,ON,Toronto,True,13411
+138,,Lakewood,False,13276
+139,OH,Lakewood,False,13276
+140,ON,Vaughan,,12836
+141,,Vaughan,,12836
+142,,Avondale,,12662
+143,AZ,Avondale,,12662
+144,,Concord,,12604
+145,,Vaughan,False,12311
+146,ON,Vaughan,False,12311
+147,,Avondale,False,12206
+148,AZ,Avondale,False,12206
+149,,Concord,False,12185
+150,NC,Concord,,11184
+151,,Phoenix,True,10920
+152,AZ,Phoenix,True,10920
+153,NC,Concord,False,10866
+154,,Matthews,,9960
+155,NC,Matthews,,9960
+156,,Huntersville,,9764
+157,NC,Huntersville,,9764
+158,,Brampton,,9557
+159,ON,Brampton,,9557
+160,,Matthews,False,9520
+161,NC,Matthews,False,9520
+162,NC,Huntersville,False,9478
+163,,Huntersville,False,9478
+164,ON,Brampton,False,9175
+165,,Brampton,False,9175
+166,,Etobicoke,,8988
+167,ON,Etobicoke,,8988
+168,AZ,Cave Creek,,8839
+169,,Cave Creek,,8839
+170,ON,Etobicoke,False,8695
+171,,Etobicoke,False,8695
+172,,Cave Creek,False,8665
+173,AZ,Cave Creek,False,8665
+174,SC,Fort Mill,,7345
+175,,Fort Mill,,7345
+176,NC,,True,7155
+177,SC,Fort Mill,False,7113
+178,,Fort Mill,False,7113
+179,,Akron,,6946
+180,OH,Akron,,6946
+181,ON,Thornhill,,6699
+182,,Thornhill,,6699
+183,,Akron,False,6694
+184,OH,Akron,False,6694
+185,ON,Thornhill,False,6437
+186,,Thornhill,False,6437
+187,,Westlake,,6126
+188,OH,Westlake,,6126
+189,,Cleveland Heights,,6088
+190,OH,Cleveland Heights,,6088
+191,WI,Middleton,,6043
+192,,Middleton,,6043
+193,PA,,True,6012
+194,,Westlake,False,5988
+195,OH,Westlake,False,5988
+196,,Urbana,,5945
+197,IL,Urbana,,5945
+198,OH,,True,5939
+199,OH,Cleveland Heights,False,5901
+200,,Cleveland Heights,False,5901
+201,NV,Boulder City,,5882
+202,,Boulder City,,5882
+203,,Middleton,False,5847
+204,WI,Middleton,False,5847
+205,NV,Boulder City,False,5827
+206,,Boulder City,False,5827
+207,IL,Urbana,False,5773
+208,,Urbana,False,5773
+209,,Cornelius,,5619
+210,NC,Cornelius,,5619
+211,NC,Cornelius,False,5505
+212,,Cornelius,False,5505
+213,NC,Charlotte,True,5303
+214,,Charlotte,True,5303
+215,,Gastonia,,5201
+216,NC,Gastonia,,5201
+217,PA,Pittsburgh,True,5127
+218,,Pittsburgh,True,5127
+219,,Gastonia,False,5123
+220,NC,Gastonia,False,5123
+221,OH,Strongsville,,5065
+222,,Strongsville,,5065
+223,OH,Strongsville,False,4983
+224,,Strongsville,False,4983
+225,,Mentor,,4879
+226,OH,Mentor,,4879
+227,,Mentor,False,4822
+228,OH,Mentor,False,4822
+229,OH,Cuyahoga Falls,,4702
+230,,Cuyahoga Falls,,4702
+231,OH,Cuyahoga Falls,False,4620
+232,,Cuyahoga Falls,False,4620
+233,,Scottsdale,True,4582
+234,AZ,Scottsdale,True,4582
+235,OH,Parma,,4454
+236,,Parma,,4454
+237,AZ,Fountain Hills,,4433
+238,,Fountain Hills,,4433
+239,OH,Rocky River,,4322
+240,,Rocky River,,4322
+241,AZ,Fountain Hills,False,4285
+242,,Fountain Hills,False,4285
+243,,Parma,False,4277
+244,OH,Parma,False,4277
+245,,Rocky River,False,4259
+246,OH,Rocky River,False,4259
+247,PA,Monroeville,,4173
+248,,Monroeville,,4173
+249,QC,,True,4120
+250,OH,North Olmsted,,4114
+251,,North Olmsted,,4114
+252,OH,North Olmsted,False,4050
+253,,North Olmsted,False,4050
+254,,Monroeville,False,4020
+255,PA,Monroeville,False,4020
+256,,Litchfield Park,,3946
+257,AZ,Litchfield Park,,3946
+258,,Rock Hill,,3893
+259,SC,Rock Hill,,3893
+260,AZ,Litchfield Park,False,3882
+261,,Litchfield Park,False,3882
+262,,Rock Hill,False,3755
+263,SC,Rock Hill,False,3755
+264,OH,Kent,,3697
+265,,Kent,,3697
+266,OH,Kent,False,3607
+267,,Kent,False,3607
+268,,Montréal,True,3548
+269,QC,Montréal,True,3548
+270,,Pineville,,3525
+271,NC,Pineville,,3525
+272,,Aurora,,3517
+273,ON,Newmarket,,3460
+274,,Newmarket,,3460
+275,,Independence,,3436
+276,OH,Beachwood,,3436
+277,OH,Independence,,3436
+278,,Beachwood,,3436
+279,,Independence,False,3389
+280,OH,Independence,False,3389
+281,,Aurora,False,3387
+282,,Beachwood,False,3344
+283,OH,Beachwood,False,3344
+284,NC,Pineville,False,3332
+285,,Pineville,False,3332
+286,,Oakville,,3312
+287,ON,Oakville,,3312
+288,,Newmarket,False,3300
+289,ON,Newmarket,False,3300
+290,OH,Willoughby,,3241
+291,,Willoughby,,3241
+292,,Oakville,False,3240
+293,ON,Oakville,False,3240
+294,OH,Medina,,3232
+295,,Medina,,3232
+296,OH,Willoughby,False,3205
+297,,Willoughby,False,3205
+298,,Medina,False,3193
+299,OH,Medina,False,3193
+300,OH,Solon,,3163
+301,,Solon,,3163
+302,,Tempe,True,3136
+303,AZ,Tempe,True,3136
+304,OH,Solon,False,3093
+305,,Solon,False,3093
+306,AZ,Mesa,True,3084
+307,,Mesa,True,3084
+308,WI,,True,3059
+309,,Fitchburg,,3058
+310,WI,Fitchburg,,3058
+311,,Hudson,,3019
+312,,Paradise Valley,,3004
+313,AZ,Paradise Valley,,3004
+314,,Fitchburg,False,2983
+315,WI,Fitchburg,False,2983
+316,,Montreal,,2970
+317,QC,Montreal,,2970
+318,,Hudson,False,2954
+319,AZ,Paradise Valley,False,2953
+320,,Paradise Valley,False,2953
+321,OH,Hudson,,2933
+322,,Laval,,2914
+323,QC,Laval,,2914
+324,,Montreal,False,2903
+325,QC,Montreal,False,2903
+326,ON,Pickering,,2894
+327,,Pickering,,2894
+328,OH,Hudson,False,2868
+329,NC,Davidson,,2843
+330,,Davidson,,2843
+331,,Laval,False,2824
+332,QC,Laval,False,2824
+333,NC,Davidson,False,2817
+334,,Davidson,False,2817
+335,ON,Pickering,False,2808
+336,,Pickering,False,2808
+337,OH,Avon,,2700
+338,,Avon,,2700
+339,WI,Sun Prairie,,2698
+340,,Sun Prairie,,2698
+341,,Sun Prairie,False,2653
+342,WI,Sun Prairie,False,2653
+343,OH,Avon,False,2645
+344,,Avon,False,2645
+345,,Madison,True,2602
+346,WI,Madison,True,2602
+347,,Homestead,,2580
+348,PA,Homestead,,2580
+349,AZ,Chandler,True,2579
+350,,Chandler,True,2579
+351,ON,Ajax,,2548
+352,,Ajax,,2548
+353,PA,Homestead,False,2544
+354,,Homestead,False,2544
+355,,Cleveland,True,2522
+356,OH,Cleveland,True,2522
+357,NV,Henderson,True,2514
+358,,Henderson,True,2514
+359,PA,Bridgeville,,2506
+360,,Bridgeville,,2506
+361,,Bridgeville,False,2483
+362,PA,Bridgeville,False,2483
+363,,Indian Trail,,2476
+364,NC,Indian Trail,,2476
+365,ON,Ajax,False,2475
+366,,Ajax,False,2475
+367,PA,Wexford,,2463
+368,,Wexford,,2463
+369,OH,Woodmere,,2433
+370,,Woodmere,,2433
+371,,Wexford,False,2412
+372,PA,Wexford,False,2412
+373,NC,Belmont,,2405
+374,,Belmont,,2405
+375,NC,Belmont,False,2383
+376,,Belmont,False,2383
+377,,Woodmere,False,2373
+378,OH,Woodmere,False,2373
+379,,Indian Trail,False,2358
+380,NC,Indian Trail,False,2358
+381,,Stow,,2339
+382,OH,Stow,,2339
+383,OH,Chagrin Falls,,2312
+384,,Chagrin Falls,,2312
+385,OH,Stow,False,2288
+386,,Stow,False,2288
+387,OH,Chagrin Falls,False,2271
+388,,Chagrin Falls,False,2271
+389,ON,Whitby,,2256
+390,,Whitby,,2256
+391,OH,Lyndhurst,,2252
+392,,Lyndhurst,,2252
+393,OH,Lyndhurst,False,2201
+394,,Lyndhurst,False,2201
+395,ON,Whitby,False,2190
+396,,Whitby,False,2190
+397,ON,Aurora,,2171
+398,AB,,True,2162
+399,AB,Calgary,True,2123
+400,,Calgary,True,2123
+401,ON,Woodbridge,,2104
+402,,Woodbridge,,2104
+403,ON,Aurora,False,2077
+404,,Coraopolis,,2022
+405,PA,Coraopolis,,2022
+406,,Woodbridge,False,2017
+407,ON,Woodbridge,False,2017
+408,,Coraopolis,False,1971
+409,PA,Coraopolis,False,1971
+410,OH,Berea,,1924
+411,,Berea,,1924
+412,,Berea,False,1868
+413,OH,Berea,False,1868
+414,OH,Fairlawn,,1860
+415,,Fairlawn,,1860
+416,OH,Fairlawn,False,1833
+417,,Fairlawn,False,1833
+418,,Carnegie,,1769
+419,PA,Carnegie,,1769
+420,,Waxhaw,,1748
+421,NC,Waxhaw,,1748
+422,PA,Carnegie,False,1739
+423,,Carnegie,False,1739
+424,,Verona,,1733
+425,,Waxhaw,False,1712
+426,NC,Waxhaw,False,1712
+427,,Monona,,1700
+428,WI,Monona,,1700
+429,,Verona,False,1697
+430,,Canonsburg,,1674
+431,PA,Canonsburg,,1671
+432,,Monona,False,1650
+433,WI,Monona,False,1650
+434,,Mayfield Heights,,1639
+435,OH,Mayfield Heights,,1639
+436,AZ,Carefree,,1629
+437,,Carefree,,1629
+438,ON,Unionville,,1623
+439,,Unionville,,1623
+440,ON,Mississauga,True,1621
+441,,Mississauga,True,1621
+442,,Canonsburg,False,1612
+443,PA,Canonsburg,False,1609
+444,,Mayfield Heights,False,1608
+445,OH,Mayfield Heights,False,1608
+446,,Sun City,,1589
+447,AZ,Sun City,,1589
+448,AZ,Carefree,False,1588
+449,,Carefree,False,1588
+450,ON,Unionville,False,1561
+451,,Unionville,False,1561
+452,,Bethel Park,,1544
+453,PA,Bethel Park,,1544
+454,OH,Fairview Park,,1532
+455,,Fairview Park,,1532
+456,,Sun City,False,1529
+457,AZ,Sun City,False,1529
+458,,Bethel Park,False,1511
+459,PA,Bethel Park,False,1511
+460,NV,Spring Valley,,1508
+461,,Spring Valley,,1508
+462,,Spring Valley,False,1495
+463,NV,Spring Valley,False,1495
+464,AZ,Tolleson,,1461
+465,,Tolleson,,1461
+466,OH,Fairview Park,False,1455
+467,,Fairview Park,False,1455
+468,OH,Brunswick,,1454
+469,,Brunswick,,1454
+470,QC,Brossard,,1449
+471,,Brossard,,1449
+472,,Avon Lake,,1433
+473,OH,Avon Lake,,1433
+474,,Twinsburg,,1431
+475,OH,Twinsburg,,1431
+476,,Markham,True,1428
+477,ON,Markham,True,1428
+478,OH,Elyria,,1427
+479,,Elyria,,1427
+480,,Brunswick,False,1422
+481,OH,Brunswick,False,1422
+482,,Tolleson,False,1419
+483,AZ,Tolleson,False,1419
+484,QC,Verdun,,1412
+485,,Verdun,,1412
+486,AZ,Glendale,True,1409
+487,,Glendale,True,1409
+488,,Elyria,False,1402
+489,OH,Elyria,False,1402
+490,,Twinsburg,False,1399
+491,OH,Twinsburg,False,1399
+492,,Brossard,False,1389
+493,QC,Brossard,False,1389
+494,OH,Avon Lake,False,1381
+495,,Avon Lake,False,1381
+496,,Verdun,False,1353
+497,QC,Verdun,False,1353
+498,OH,Aurora,,1346
+499,OH,Aurora,False,1310
+500,OH,Broadview Heights,,1308
+501,,Broadview Heights,,1308
+502,,Sewickley,,1307
+503,PA,Sewickley,,1307
+504,WI,Verona,,1304
+505,PA,Sewickley,False,1297
+506,,Sewickley,False,1297
+507,WI,Verona,False,1292
+508,,Gilbert,True,1282
+509,AZ,Gilbert,True,1282
+510,,Broadview Heights,False,1268
+511,OH,Broadview Heights,False,1268
+512,AZ,Queen Creek,,1256
+513,,Queen Creek,,1256
+514,,Denver,,1254
+515,NC,Denver,,1254
+516,NC,Harrisburg,,1252
+517,,Harrisburg,,1252
+518,,Queen Creek,False,1249
+519,AZ,Queen Creek,False,1249
+520,NC,Denver,False,1245
+521,,Denver,False,1245
+522,OH,North Royalton,,1236
+523,,North Royalton,,1236
+524,,Brooklyn,,1222
+525,,North Royalton,False,1211
+526,OH,North Royalton,False,1211
+527,ON,Concord,,1208
+528,,Middleburg Heights,,1205
+529,OH,Middleburg Heights,,1205
+530,,Dallas,,1203
+531,OH,Brooklyn,,1201
+532,,Dallas,False,1195
+533,NC,Harrisburg,False,1195
+534,,Harrisburg,False,1195
+535,OH,Middleburg Heights,False,1194
+536,,Middleburg Heights,False,1194
+537,,Brooklyn,False,1184
+538,OH,Painesville,,1182
+539,,Painesville,,1182
+540,,Streetsboro,,1179
+541,OH,Streetsboro,,1179
+542,OH,Brooklyn,False,1164
+543,OH,Macedonia,,1159
+544,,Macedonia,,1159
+545,,Streetsboro,False,1155
+546,OH,Streetsboro,False,1155
+547,AZ,Laveen,,1154
+548,,Laveen,,1154
+549,,Laveen,False,1144
+550,AZ,Laveen,False,1144
+551,OH,Painesville,False,1127
+552,,Painesville,False,1127
+553,OH,Macedonia,False,1123
+554,,Macedonia,False,1123
+555,IL,,True,1115
+556,ON,East York,,1112
+557,,East York,,1112
+558,ON,Concord,False,1108
+559,QC,Saint-Laurent,,1079
+560,,Saint-Laurent,,1079
+561,,Dollard-des-Ormeaux,,1079
+562,QC,Dollard-des-Ormeaux,,1079
+563,,Murrysville,,1063
+564,PA,Murrysville,,1063
+565,ON,East York,False,1057
+566,,East York,False,1057
+567,QC,Dollard-des-Ormeaux,False,1047
+568,,Dollard-des-Ormeaux,False,1047
+569,PA,Murrysville,False,1040
+570,,Murrysville,False,1040
+571,,Monroe,,1026
+572,NC,Monroe,,1026
+573,,Saint-Laurent,False,1022
+574,QC,Saint-Laurent,False,1022
+575,,Amherst,,1015
+576,OH,Amherst,,1015
+577,TX,,,1010
+578,TX,Dallas,,1010
+579,,Brecksville,,1004
+580,OH,Brecksville,,1004
+581,TX,Dallas,False,1002
+582,OH,Amherst,False,1002
+583,TX,,False,1002
+584,,Amherst,False,1002
+585,,Monroe,False,1001
+586,NC,Monroe,False,1001
+587,,Brecksville,False,999
+588,OH,Brecksville,False,999
+589,OH,Valley View,,976
+590,,Valley View,,976
+591,,McMurray,,973
+592,PA,McMurray,,973
+593,,Valley View,False,972
+594,OH,Valley View,False,972
+595,,McMurray,False,962
+596,PA,McMurray,False,962
+597,AZ,Buckeye,,953
+598,,Buckeye,,953
+599,NC,Mint Hill,,944
+600,,Mint Hill,,944
+601,OH,Chesterland,,942
+602,,Chesterland,,942
+603,,Buckeye,False,930
+604,AZ,Buckeye,False,930
+605,,Mint Hill,False,928
+606,NC,Mint Hill,False,928
+607,PA,Oakmont,,923
+608,,Oakmont,,923
+609,OH,Chesterland,False,920
+610,,Chesterland,False,920
+611,,Oakmont,False,919
+612,PA,Oakmont,False,919
+613,IL,Champaign,True,906
+614,,Champaign,True,906
+615,WI,Stoughton,,884
+616,,Stoughton,,884
+617,,Northfield,,883
+618,OH,Northfield,,883
+619,AB,Airdrie,,877
+620,,York,,877
+621,,Airdrie,,877
+622,,Richmond Hill,True,870
+623,ON,Richmond Hill,True,870
+624,WI,Stoughton,False,868
+625,,Stoughton,False,868
+626,,Northfield,False,858
+627,OH,Northfield,False,858
+628,ON,York,,853
+629,QC,Pointe-Claire,,847
+630,,Pointe-Claire,,847
+631,AB,Airdrie,False,843
+632,,Airdrie,False,843
+633,,Ahwatukee,,837
+634,AZ,Ahwatukee,,837
+635,AZ,Ahwatukee,False,834
+636,,Ahwatukee,False,834
+637,QC,Pointe-Claire,False,830
+638,,Pointe-Claire,False,830
+639,,South Euclid,,829
+640,OH,South Euclid,,829
+641,,Indian Land,,820
+642,,York,False,820
+643,SC,Indian Land,,820
+644,,El Mirage,,818
+645,AZ,El Mirage,,818
+646,,University Heights,,811
+647,OH,University Heights,,811
+648,,South Euclid,False,807
+649,OH,South Euclid,False,807
+650,OH,University Heights,False,805
+651,,University Heights,False,805
+652,SC,Lake Wylie,,797
+653,,Lake Wylie,,797
+654,ON,York,False,796
+655,SC,Indian Land,False,794
+656,,Indian Land,False,794
+657,,Dorval,,792
+658,QC,Dorval,,792
+659,,Lake Wylie,False,789
+660,SC,Lake Wylie,False,789
+661,,Highland Heights,,784
+662,OH,Highland Heights,,784
+663,,Tega Cay,,781
+664,SC,Tega Cay,,781
+665,,Dorval,False,781
+666,QC,Dorval,False,781
+667,NC,Kannapolis,,778
+668,,Kannapolis,,778
+669,,Orange Village,,776
+670,OH,Orange Village,,776
+671,,El Mirage,False,773
+672,AZ,El Mirage,False,773
+673,OH,Euclid,,765
+674,,Euclid,,765
+675,SC,Tega Cay,False,756
+676,,Tega Cay,False,756
+677,OH,Highland Heights,False,753
+678,,Highland Heights,False,753
+679,OH,Euclid,False,752
+680,,Euclid,False,752
+681,NC,Kannapolis,False,749
+682,,Kannapolis,False,749
+683,PA,Allison Park,,746
+684,,Allison Park,,746
+685,QC,Westmount,,745
+686,,Westmount,,745
+687,QC,Westmount,False,738
+688,,Westmount,False,738
+689,,Allison Park,False,732
+690,PA,Allison Park,False,732
+691,,Anthem,,731
+692,AZ,Anthem,,731
+693,,Lorain,,730
+694,OH,Lorain,,730
+695,,Orange Village,False,723
+696,OH,Orange Village,False,723
+697,,Lorain,False,712
+698,OH,Lorain,False,712
+699,,West Mifflin,,710
+700,PA,West Mifflin,,710
+701,,West Mifflin,False,695
+702,PA,West Mifflin,False,695
+703,,Anthem,False,694
+704,AZ,Anthem,False,694
+705,,Moon Township,,692
+706,PA,Moon Township,,692
+707,PA,Moon Township,False,689
+708,,Moon Township,False,689
+709,OH,Chardon,,687
+710,,Chardon,,687
+711,OH,North Ridgeville,,682
+712,,North Ridgeville,,682
+713,,Chardon,False,678
+714,OH,Chardon,False,678
+715,,Olmsted Falls,,666
+716,OH,Olmsted Falls,,666
+717,,Summerlin,False,659
+718,NV,Summerlin,,659
+719,,Summerlin,,659
+720,NV,Summerlin,False,659
+721,,North Ridgeville,False,657
+722,OH,North Ridgeville,False,657
+723,,Waunakee,,653
+724,WI,Waunakee,,653
+725,NV,North Las Vegas,True,653
+726,,North Las Vegas,True,653
+727,PA,Gibsonia,,652
+728,,Gibsonia,,652
+729,,Olmsted Falls,False,650
+730,OH,Olmsted Falls,False,650
+731,WI,Waunakee,False,646
+732,,Waunakee,False,646
+733,,West Homestead,,645
+734,PA,West Homestead,,645
+735,OH,Warrensville Heights,,641
+736,,Warrensville Heights,,641
+737,,Gibsonia,False,640
+738,PA,Gibsonia,False,640
+739,,West Homestead,False,634
+740,PA,West Homestead,False,634
+741,,Warrensville Heights,False,632
+742,OH,Warrensville Heights,False,632
+743,,North York,True,629
+744,ON,North York,True,629
+745,NV,South Las Vegas,,620
+746,,South Las Vegas,,620
+747,NV,South Las Vegas,False,615
+748,,South Las Vegas,False,615
+749,OH,Eastlake,,610
+750,,Eastlake,,610
+751,,Oregon,,606
+752,WI,Oregon,,606
+753,AZ,Peoria,True,600
+754,,Whitchurch-Stouffville,,600
+755,,Peoria,True,600
+756,ON,Whitchurch-Stouffville,,600
+757,NC,Mount Holly,,598
+758,,Mount Holly,,598
+759,,Eastlake,False,594
+760,OH,Eastlake,False,594
+761,,Oregon,False,592
+762,WI,Oregon,False,592
+763,WI,Mount Horeb,,590
+764,,Mount Horeb,,590
+765,OH,Seven Hills,,589
+766,,Seven Hills,,589
+767,ON,Scarborough,True,588
+768,,Whitchurch-Stouffville,False,588
+769,,Scarborough,True,588
+770,ON,Whitchurch-Stouffville,False,588
+771,,Mount Holly,False,587
+772,NC,Mount Holly,False,587
+773,PA,Bellevue,,581
+774,WI,Mount Horeb,False,581
+775,,Mount Horeb,False,581
+776,,Bellevue,,581
+777,OH,Parma Heights,,579
+778,,Parma Heights,,579
+779,PA,Irwin,,578
+780,,Irwin,,578
+781,SC,Clover,,575
+782,PA,New Kensington,,575
+783,,New Kensington,,575
+784,,Clover,,575
+785,,Irwin,False,569
+786,PA,Irwin,False,569
+787,OH,Seven Hills,False,569
+788,,Seven Hills,False,569
+789,SC,Clover,False,568
+790,,Clover,False,568
+791,,Bellevue,False,563
+792,PA,Bellevue,False,563
+793,,Parma Heights,False,558
+794,OH,Parma Heights,False,558
+795,,New Kensington,False,554
+796,PA,New Kensington,False,554
+797,,McKees Rocks,,547
+798,PA,McKees Rocks,,547
+799,,Maple,,543
+800,ON,Maple,,543
+801,,Maple,False,531
+802,ON,Maple,False,531
+803,,McKees Rocks,False,529
+804,PA,McKees Rocks,False,529
+805,OH,Brook Park,,525
+806,ON,Vaughan,True,525
+807,,Brook Park,,525
+808,,Vaughan,True,525
+809,OH,Willowick,,524
+810,,Willowick,,524
+811,,Willowick,False,513
+812,OH,Willowick,False,513
+813,,Missisauga,,511
+814,ON,Missisauga,,511
+815,,Glenshaw,,510
+816,PA,Glenshaw,,510
+817,,Brook Park,False,506
+818,OH,Brook Park,False,506
+819,ON,Missisauga,False,501
+820,,Missisauga,False,501
+821,,Bedford,,499
+822,,Glenshaw,False,498
+823,PA,Glenshaw,False,498
+824,OH,Bedford,,492
+825,QC,Outremont,,492
+826,,Outremont,,492
+827,,Bedford,False,480
+828,QC,Outremont,False,476
+829,,Outremont,False,476
+830,OH,Bedford,False,473
+831,PA,Pleasant Hills,,459
+832,,Pleasant Hills,,459
+833,ON,Stouffville,,458
+834,,Stouffville,,458
+835,AZ,Avondale,True,456
+836,,Avondale,True,456
+837,PA,Pleasant Hills,False,453
+838,OH,Shaker Heights,,453
+839,,Shaker Heights,,453
+840,,Pleasant Hills,False,453
+841,,Stallings,,449
+842,NC,Stallings,,449
+843,,Willoughby Hills,,448
+844,OH,Willoughby Hills,,448
+845,,Las  Vegas,,444
+846,NV,Las  Vegas,,444
+847,ON,Stouffville,False,443
+848,,Lasalle,,443
+849,,Stouffville,False,443
+850,QC,Lasalle,,443
+851,OH,Richfield,,441
+852,,Richfield,,441
+853,NC,Matthews,True,440
+854,,Matthews,True,440
+855,OH,Wickliffe,,439
+856,,Wickliffe,,439
+857,,Lasalle,False,439
+858,,Richfield,False,439
+859,OH,Richfield,False,439
+860,QC,Lasalle,False,439
+861,OH,Willoughby Hills,False,439
+862,,Willoughby Hills,False,439
+863,SC,,True,437
+864,,Mooresville,,435
+865,,Wesley Chapel,,435
+866,NC,Mooresville,,435
+867,NC,Wesley Chapel,,435
+868,PA,Verona,,429
+869,,Wesley Chapel,False,427
+870,NC,Wesley Chapel,False,427
+871,NC,Stallings,False,425
+872,,Shaker Heights,False,425
+873,,Stallings,False,425
+874,OH,Shaker Heights,False,425
+875,NV,Blue Diamond,,424
+876,,Blue Diamond,,424
+877,,Mooresville,False,421
+878,,Sun City West,,421
+879,NC,Mooresville,False,421
+880,AZ,Sun City West,,421
+881,QC,Longueuil,,419
+882,,Longueuil,,419
+883,AZ,Sun City West,False,419
+884,,Sun City West,False,419
+885,,Concord,True,419
+886,OH,Peninsula,,418
+887,,Peninsula,,418
+888,,Blue Diamond,False,415
+889,NV,Blue Diamond,False,415
+890,OH,Wickliffe,False,412
+891,,Wickliffe,False,412
+892,QC,Longueuil,False,411
+893,,Longueuil,False,411
+894,,Peninsula,False,410
+895,OH,Peninsula,False,410
+896,PA,Verona,False,405
+897,,Tallmadge,,404
+898,OH,Tallmadge,,404
+899,PA,Robinson Township,,400
+900,,Robinson Township,,400
+901,PA,Robinson Township,False,398
+902,,Robinson Township,False,398
+903,,Las  Vegas,False,398
+904,NV,Las  Vegas,False,398
+905,OH,Bay Village,,395
+906,,Bay Village,,395
+907,,Tallmadge,False,391
+908,OH,Tallmadge,False,391
+909,,Bay Village,False,387
+910,OH,Bay Village,False,387
+911,IL,Savoy,,383
+912,,Savoy,,383
+913,ON,Brampton,True,382
+914,,Brampton,True,382
+915,,Cramerton,,380
+916,NC,Cramerton,,380
+917,NC,Cramerton,False,378
+918,,Cramerton,False,378
+919,,Savoy,False,375
+920,IL,Savoy,False,375
+921,,Mt. Lebanon,,372
+922,PA,Mt. Lebanon,,372
+923,,Saint-Sauveur,,371
+924,QC,Saint-Sauveur,,371
+925,PA,Mt. Lebanon,False,370
+926,,Mt. Lebanon,False,370
+927,,Saint-Sauveur,False,367
+928,QC,Saint-Sauveur,False,367
+929,,Pierrefonds,,363
+930,QC,Pierrefonds,,363
+931,,DeForest,,360
+932,WI,DeForest,,360
+933,,Lakewood,True,357
+934,OH,Lakewood,True,357
+935,,Tarentum,,355
+936,PA,Tarentum,,355
+937,,Mahomet,,354
+938,IL,Mahomet,,354
+939,,Tarentum,False,351
+940,PA,Tarentum,False,351
+941,QC,Lachine,,350
+942,,Lachine,,350
+943,WI,DeForest,False,349
+944,,DeForest,False,349
+945,QC,Pierrefonds,False,346
+946,,Pierrefonds,False,346
+947,,Mahomet,False,344
+948,IL,Mahomet,False,344
+949,AZ,Surprise,True,343
+950,,Surprise,True,343
+951,,Higley,False,342
+952,AZ,Higley,False,342
+953,AZ,Higley,,342
+954,,Higley,,342
+955,NC,Blakeney,,339
+956,,Blakeney,,339
+957,NC,Blakeney,False,338
+958,,Blakeney,False,338
+959,QC,Lachine,False,332
+960,,Lachine,False,332
+961,,McKeesport,,329
+962,PA,McKeesport,,329
+963,PA,McKeesport,False,325
+964,,McKeesport,False,325
+965,PA,Lower Lawrenceville,,323
+966,,Lower Lawrenceville,,323
+967,PA,Lower Lawrenceville,False,322
+968,,Lower Lawrenceville,False,322
+969,NV,N. Las Vegas,False,319
+970,,N. Las Vegas,False,319
+971,,N. Las Vegas,,319
+972,NV,N. Las Vegas,,319
+973,NC,Concord,True,318
+974,OH,Tremont,,316
+975,,Tremont,,316
+976,OH,Moreland Hills,,313
+977,,Moreland Hills,,313
+978,IL,Rantoul,,312
+979,,Rantoul,,312
+980,,Tremont,False,311
+981,OH,Tremont,False,311
+982,ON,Bolton,,309
+983,,Bolton,,309
+984,OH,Moreland Hills,False,308
+985,,Moreland Hills,False,308
+986,,Upper St Clair,,307
+987,PA,Upper St Clair,,307
+988,IL,Rantoul,False,306
+989,PA,Upper St Clair,False,306
+990,,Guadalupe,,306
+991,AZ,Guadalupe,,306
+992,,Rantoul,False,306
+993,,Upper St Clair,False,306
+994,AZ,Youngtown,,305
+995,,Youngtown,,305
+996,ON,Bolton,False,304
+997,,Bolton,False,304
+998,,Youngtown,False,303
+999,AZ,Youngtown,False,303
+1000,,Ambridge,,294
+1001,PA,Ambridge,,294
+1002,ON,Etobicoke,True,293
+1003,,Etobicoke,True,293
+1004,NV,Enterprise,,291
+1005,,Enterprise,,291
+1006,OH,Woodmere Village,,290
+1007,,Woodmere Village,,290
+1008,WI,Cottage Grove,,289
+1009,,Cottage Grove,,289
+1010,WI,Cottage Grove,False,288
+1011,,Cottage Grove,False,288
+1012,PA,Ambridge,False,287
+1013,,Ambridge,False,287
+1014,NV,Enterprise,False,286
+1015,,Enterprise,False,286
+1016,,Huntersville,True,286
+1017,NC,Huntersville,True,286
+1018,,Burton,,286
+1019,OH,Burton,,286
+1020,PA,Mount Lebanon,,285
+1021,,Pepper Pike,,285
+1022,OH,Pepper Pike,,285
+1023,,Mount Lebanon,,285
+1024,OH,Woodmere Village,False,284
+1025,,Woodmere Village,False,284
+1026,PA,North Huntingdon,,283
+1027,,North Huntingdon,,283
+1028,,Burton,False,282
+1029,OH,Burton,False,282
+1030,,Wadsworth,,281
+1031,OH,Wadsworth,,281
+1032,,Mount Lebanon,False,277
+1033,PA,Mount Lebanon,False,277
+1034,AZ,Guadalupe,False,275
+1035,,Guadalupe,False,275
+1036,OH,Pepper Pike,False,274
+1037,PA,North Huntingdon,False,274
+1038,,North Huntingdon,False,274
+1039,,Pepper Pike,False,274
+1040,,Richmond Heights,,273
+1041,OH,Richmond Heights,,273
+1042,,Braddock,,271
+1043,,Wadsworth,False,271
+1044,,Cecil,,271
+1045,OH,Wadsworth,False,271
+1046,PA,Braddock,,271
+1047,PA,Cecil,,271
+1048,,Sun Lakes,False,268
+1049,AZ,Sun Lakes,False,268
+1050,AZ,Sun Lakes,,268
+1051,,Sun Lakes,,268
+1052,,Braddock,False,267
+1053,,Kirkland,,267
+1054,PA,Braddock,False,267
+1055,QC,Kirkland,,267
+1056,QC,Kirkland,False,265
+1057,,Kirkland,False,265
+1058,,Grand River,,264
+1059,OH,Grand River,,264
+1060,,Grand River,False,263
+1061,OH,Grand River,False,263
+1062,QC,Vaudreuil-Dorion,,262
+1063,ON,Thornhill,True,262
+1064,,Thornhill,True,262
+1065,,Vaudreuil-Dorion,,262
+1066,ON,Georgetown,,261
+1067,,Georgetown,,261
+1068,,Oakdale,,260
+1069,,Oakdale,False,260
+1070,PA,Oakdale,False,260
+1071,PA,Oakdale,,260
+1072,,North Versailles,,256
+1073,PA,North Versailles,,256
+1074,OH,Copley,,256
+1075,,Copley,,256
+1076,,Copley,False,255
+1077,OH,Copley,False,255
+1078,,Concord Mills,,254
+1079,NC,Concord Mills,,254
+1080,NC,Concord Mills,False,254
+1081,,Concord Mills,False,254
+1082,OH,Middlefield,,253
+1083,QC,Vaudreuil-Dorion,False,253
+1084,,Vaudreuil-Dorion,False,253
+1085,,Middlefield,,253
+1086,PA,North Versailles,False,252
+1087,,Ross Township,,252
+1088,OH,Akron,True,252
+1089,PA,Ross Township,,252
+1090,,Akron,True,252
+1091,,North Versailles,False,252
+1092,,Georgetown,False,250
+1093,ON,Georgetown,False,250
+1094,,LasVegas,False,248
+1095,NV,LasVegas,,248
+1096,NV,LasVegas,False,248
+1097,,LasVegas,,248
+1098,,Ross Township,False,246
+1099,PA,Ross Township,False,246
+1100,ON,Bradford,,245
+1101,,Bradford,,245
+1102,,Mayfield Village,,242
+1103,OH,Mayfield Village,,242
+1104,,Valley City,False,241
+1105,OH,Valley City,,241
+1106,,Valley City,,241
+1107,OH,Valley City,False,241
+1108,OH,Munroe Falls,,240
+1109,OH,Mentor-on-the-Lake,,240
+1110,,Mentor-on-the-Lake,,240
+1111,,Munroe Falls,,240
+1112,OH,Middlefield,False,239
+1113,,Middlefield,False,239
+1114,PA,White Oak,,238
+1115,,Sheffield Village,,238
+1116,,White Oak,,238
+1117,OH,Sheffield Village,,238
+1118,OH,Mentor-on-the-Lake,False,237
+1119,,Monticello,,237
+1120,,Mentor-on-the-Lake,False,237
+1121,PA,White Oak,False,237
+1122,,White Oak,False,237
+1123,,Munroe Falls,False,236
+1124,OH,Munroe Falls,False,236
+1125,OH,Mayfield Village,False,234
+1126,,Mayfield Village,False,234
+1127,,Kirtland,,233
+1128,OH,Kirtland,,233
+1129,,Fort Mill,True,232
+1130,,Sheffield Village,False,232
+1131,SC,Fort Mill,True,232
+1132,OH,Sheffield Village,False,232
+1133,OH,Kirtland,False,231
+1134,,Goodyear,True,231
+1135,,McFarland,,231
+1136,WI,McFarland,,231
+1137,,Monticello,False,231
+1138,,Kirtland,False,231
+1139,AZ,Goodyear,True,231
+1140,IL,Monticello,,230
+1141,PA,Mc Kees Rocks,,230
+1142,,Mc Kees Rocks,,230
+1143,,Richmond Heights,False,227
+1144,OH,Richmond Heights,False,227
+1145,,Cecil,False,225
+1146,PA,Cecil,False,225
+1147,,Mc Kees Rocks,False,224
+1148,IL,Monticello,False,224
+1149,PA,Mc Kees Rocks,False,224
+1150,,McFarland,False,223
+1151,WI,McFarland,False,223
+1152,,Bradford,False,222
+1153,ON,Bradford,False,222
+1154,ON,King City,,218
+1155,,L'Île-Perrot,,218
+1156,QC,L'Île-Perrot,,218
+1157,,King City,,218
+1158,,Springdale,,216
+1159,,L'Île-Perrot,False,216
+1160,QC,L'Île-Perrot,False,216
+1161,PA,Springdale,,216
+1162,,Springdale,False,215
+1163,PA,Springdale,False,215
+1164,ON,Rexdale,False,213
+1165,,Rexdale,,213
+1166,,Trafford,,213
+1167,ON,Rexdale,,213
+1168,PA,Trafford,,213
+1169,,Rexdale,False,213
+1170,OH,Concord,,212
+1171,,Trafford,False,211
+1172,OH,Concord,False,211
+1173,PA,Trafford,False,211
+1174,ON,King City,False,210
+1175,,King City,False,210
+1176,NC,Lowell,,209
+1177,,Lowell,,209
+1178,,Orange,,208
+1179,OH,Orange,,208
+1180,OH,Orange,False,207
+1181,,Orange,False,207
+1182,PA,West View,,206
+1183,,West View,,206
+1184,NC,Lowell,False,205
+1185,,Lowell,False,205
+1186,,Munhall,,204
+1187,PA,Munhall,False,204
+1188,PA,Munhall,,204
+1189,,Munhall,False,204
+1190,WI,De Forest,,200
+1191,,De Forest,,200
+1192,,Elizabeth,,200
+1193,PA,Elizabeth,,200
+1194,WI,De Forest,False,199
+1195,,West View,False,199
+1196,PA,West View,False,199
+1197,,De Forest,False,199
+1198,PA,Elizabeth,False,198
+1199,,Elizabeth,False,198
+1200,,Millvale,,197
+1201,PA,Millvale,False,197
+1202,,Millvale,False,197
+1203,PA,Millvale,,197
+1204,,Middleton,True,196
+1205,PA,Turtle Creek,,196
+1206,WI,Middleton,True,196
+1207,,Turtle Creek,,196
+1208,PA,Turtle Creek,False,195
+1209,,Turtle Creek,False,195
+1210,ON,East Gwillimbury,,194
+1211,,East Gwillimbury,,194
+1212,NC,Dallas,False,193
+1213,,East Gwillimbury,False,193
+1214,ON,East Gwillimbury,False,193
+1215,NC,Pineville,True,193
+1216,NC,Dallas,,193
+1217,,Pineville,True,193
+1218,,Moon,,189
+1219,PA,Moon,,189
+1220,,Cleveland Heights,True,187
+1221,OH,Cleveland Heights,True,187
+1222,PA,Upper Saint Clair,,186
+1223,,Upper Saint Clair,,186
+1224,,Heidelberg,,185
+1225,PA,Heidelberg,,185
+1226,PA,Heidelberg,False,184
+1227,,Upper Saint Clair,False,184
+1228,PA,Upper Saint Clair,False,184
+1229,OH,Maple Heights,,184
+1230,,Maple Heights,,184
+1231,,Heidelberg,False,184
+1232,,Leetsdale,,183
+1233,PA,Leetsdale,,183
+1234,,Maple Heights,False,181
+1235,OH,Maple Heights,False,181
+1236,,Boucherville,False,179
+1237,PA,Moon,False,179
+1238,,Moon,False,179
+1239,,Boucherville,,179
+1240,QC,Boucherville,,179
+1241,QC,Boucherville,False,179
+1242,OH,Parma,True,177
+1243,,Apache Junction,,177
+1244,AZ,Apache Junction,,177
+1245,OH,Bedford Heights,False,177
+1246,OH,Bedford Heights,,177
+1247,,Bedford Heights,,177
+1248,,Parma,True,177
+1249,,Bedford Heights,False,177
+1250,AZ,Apache Junction,False,176
+1251,OH,Garfield Heights,,176
+1252,,Apache Junction,False,176
+1253,,Garfield Heights,,176
+1254,AZ,MESA,,175
+1255,,Garfield Heights,False,175
+1256,,MESA,,175
+1257,OH,Garfield Heights,False,175
+1258,AZ,MESA,False,175
+1259,,MESA,False,175
+1260,AZ,Cave Creek,True,174
+1261,,Brentwood,,174
+1262,,Brentwood,False,174
+1263,PA,Brentwood,False,174
+1264,,Cave Creek,True,174
+1265,PA,Brentwood,,174
+1266,AZ,Laveen Village,,173
+1267,PA,Robinson,,173
+1268,,Laveen Village,,173
+1269,,Robinson,,173
+1270,IL,Urbana,True,172
+1271,,Urbana,True,172
+1272,AZ,Scottdale,,170
+1273,PA,Leetsdale,False,170
+1274,,Scottdale,,170
+1275,,Leetsdale,False,170
+1276,AZ,Scottdale,False,169
+1277,,Mont-Royal,,169
+1278,,Grafton,,169
+1279,QC,Mont-Royal,,169
+1280,OH,Grafton,,169
+1281,,Scottdale,False,169
+1282,PA,Hampton Township,,168
+1283,,Mc Farland,,168
+1284,,Hampton Township,,168
+1285,,Grafton,False,168
+1286,WI,Mc Farland,False,168
+1287,WI,Mc Farland,,168
+1288,OH,Grafton,False,168
+1289,,Mc Farland,False,168
+1290,PA,Sharpsburg,,167
+1291,AZ,Laveen Village,False,167
+1292,,Sharpsburg,,167
+1293,,Laveen Village,False,167
+1294,PA,Sharpsburg,False,164
+1295,PA,Hampton Township,False,164
+1296,,Hampton Township,False,164
+1297,QC,Mont-Royal,False,164
+1298,,Mont-Royal,False,164
+1299,,Sharpsburg,False,164
+1300,ON,Newmarket,True,160
+1301,,Mayfield,,160
+1302,OH,Mayfield,,160
+1303,,Newmarket,True,160
+1304,PA,Robinson,False,158
+1305,,Robinson,False,158
+1306,,Fairport Harbor,,157
+1307,,Mayfield,False,157
+1308,OH,Fairport Harbor,,157
+1309,OH,Mayfield,False,157
+1310,,Fairport Harbor,False,156
+1311,OH,Fairport Harbor,False,156
+1312,,Tornto,,155
+1313,ON,Tornto,,155
+1314,ON,Tornto,False,155
+1315,,Tornto,False,155
+1316,PA,Monroeville,True,153
+1317,,Monroeville,True,153
+1318,PA,Plum,,152
+1319,,Bradford West Gwillimbury,,152
+1320,ON,Bradford West Gwillimbury,,152
+1321,,Plum,,152
+1322,OH,North Randall,,151
+1323,,Plum,False,151
+1324,PA,Plum,False,151
+1325,,North Randall,,151
+1326,PA,Clairton,,149
+1327,,Clairton,,149
+1328,AZ,Fountain Hills,True,148
+1329,,Fountain Hills,True,148
+1330,QC,Saint-Lambert,,147
+1331,,Saint-Lambert,,147
+1332,AZ,Fort McDowell,,146
+1333,PA,Aspinwall,,146
+1334,,Aspinwall,,146
+1335,,Fort McDowell,,146
+1336,AZ,Fort McDowell,False,146
+1337,,Fort McDowell,False,146
+1338,PA,Aspinwall,False,144
+1339,PA,Imperial,,144
+1340,,Aspinwall,False,144
+1341,QC,Saint-Lambert,False,144
+1342,PA,Imperial,False,144
+1343,,Imperial,False,144
+1344,WI,Windsor,,144
+1345,,Windsor,,144
+1346,,Imperial,,144
+1347,,Saint-Lambert,False,144
+1348,,Rocky View,,143
+1349,PA,Clairton,False,143
+1350,AB,Rocky View,,143
+1351,,Clairton,False,143
+1352,ON,Bradford West Gwillimbury,False,142
+1353,,Bradford West Gwillimbury,False,142
+1354,WI,Windsor,False,142
+1355,,Windsor,False,142
+1356,ON,Caledon,,141
+1357,,Caledon,,141
+1358,,Rocky View,False,141
+1359,AB,Rocky View,False,141
+1360,OH,Newbury,,139
+1361,ON,Caledon,False,139
+1362,,Caledon,False,139
+1363,,Newbury,,139
+1364,,Rock Hill,True,138
+1365,SC,Rock Hill,True,138
+1366,,Locust,,138
+1367,OH,Westlake,True,138
+1368,,Westlake,True,138
+1369,NC,Locust,,138
+1370,WI,Cross Plains,,136
+1371,,Cross Plains,,136
+1372,OH,Norton,,135
+1373,,Newbury,False,135
+1374,,Sainte-Anne-de-Bellevue,,135
+1375,,Norton,,135
+1376,QC,Sainte-Anne-de-Bellevue,,135
+1377,OH,Newbury,False,135
+1378,,Saint-Hubert,,134
+1379,,Saint-Jean-sur-Richelieu,False,134
+1380,QC,Saint-Jean-sur-Richelieu,False,134
+1381,,Locust,False,134
+1382,,Norton,False,134
+1383,OH,Norton,False,134
+1384,,Saint-Jean-sur-Richelieu,,134
+1385,QC,Saint-Jean-sur-Richelieu,,134
+1386,NC,Locust,False,134
+1387,QC,Saint-Hubert,,134
+1388,,Penn Hills,,133
+1389,PA,Penn Hills,,133
+1390,QC,Sainte-Anne-de-Bellevue,False,132
+1391,QC,Saint-Hubert,False,132
+1392,,Saint-Hubert,False,132
+1393,,Sainte-Anne-de-Bellevue,False,132
+1394,WI,Cross Plains,False,132
+1395,,Cross Plains,False,132
+1396,,Crafton,,131
+1397,,North Randall,False,131
+1398,OH,North Randall,False,131
+1399,PA,Crafton,False,131
+1400,,Crafton,False,131
+1401,PA,Crafton,,131
+1402,,Aurora,True,130
+1403,,Penn Hills,False,128
+1404,PA,Penn Hills,False,128
+1405,QC,La Prairie,,125
+1406,,La Prairie,,125
+1407,,Gates Mills,,124
+1408,OH,Gates Mills,,124
+1409,,charlotte,,123
+1410,QC,Greenfield Park,,123
+1411,,Greenfield Park,,123
+1412,NC,charlotte,,123
+1413,QC,La Prairie,False,122
+1414,,Greenfield Park,False,122
+1415,,La Prairie,False,122
+1416,QC,Greenfield Park,False,122
+1417,,Montrose,,121
+1418,OH,Montrose,False,121
+1419,,Don Mills,False,121
+1420,ON,Don Mills,False,121
+1421,ON,Don Mills,,121
+1422,OH,Montrose,,121
+1423,,Montrose,False,121
+1424,,Don Mills,,121
+1425,,Robinson Twp.,,119
+1426,,Finleyville,False,119
+1427,PA,Finleyville,,119
+1428,,Finleyville,,119
+1429,PA,Finleyville,False,119
+1430,PA,Robinson Twp.,,119
+1431,NC,Indian Trail,True,118
+1432,,Indian Trail,True,118
+1433,NV,Paradise,,116
+1434,QC,Dollard-Des-Ormeaux,,116
+1435,,Robinson Twp.,False,116
+1436,PA,Robinson Twp.,False,116
+1437,,Paradise,,116
+1438,,Dollard-Des-Ormeaux,,116
+1439,OH,Gates Mills,False,115
+1440,,Gates Mills,False,115
+1441,,Cornelius,True,114
+1442,NC,Cornelius,True,114
+1443,QC,Dollard-Des-Ormeaux,False,113
+1444,,Dollard-Des-Ormeaux,False,113
+1445,,Paradise,False,112
+1446,NV,Paradise,False,112
+1447,,charlotte,False,112
+1448,NC,charlotte,False,112
+1449,,Emsworth,False,111
+1450,PA,Emsworth,,111
+1451,PA,Emsworth,False,111
+1452,,Emsworth,,111
+1453,PA,McCandless Township,False,110
+1454,,Halton Hills,,110
+1455,PA,McCandless Township,,110
+1456,ON,Halton Hills,,110
+1457,,McCandless Township,,110
+1458,,McCandless Township,False,110
+1459,AZ,Glendale Az,,110
+1460,,Glendale Az,,110
+1461,AZ,Glendale Az,False,109
+1462,,Glendale Az,False,109
+1463,ON,Halton Hills,False,107
+1464,,Halton Hills,False,107
+1465,PA,Harrison City,,106
+1466,,Harrison City,,106
+1467,ON,Port Credit,,106
+1468,,Port Credit,,106
+1469,,Harrison City,False,104
+1470,OH,lyndhurst,,104
+1471,PA,Harrison City,False,104
+1472,,Anjou,,104
+1473,,lyndhurst,,104
+1474,,lyndhurst,False,104
+1475,OH,lyndhurst,False,104
+1476,QC,Anjou,,104
+1477,,Port Credit,False,102
+1478,ON,Port Credit,False,102
+1479,,Anjou,False,102
+1480,QC,Anjou,False,102
+1481,,Stanley,,101
+1482,NC,Stanley,,101
+1483,ON,Concord,True,100
+1484,PA,Green Tree,,100
+1485,,Green Tree,False,100
+1486,,Green Tree,,100
+1487,,Stanley,False,100
+1488,PA,Green Tree,False,100
+1489,NC,Stanley,False,100
+1490,,Brooklin,False,99
+1491,ON,Brooklin,,99
+1492,,Wilkinsburg,,99
+1493,QC,Saint-Leonard,,99
+1494,,Brooklin,,99
+1495,PA,Wilkinsburg,,99
+1496,ON,Brooklin,False,99
+1497,QC,Saint-Leonard,False,99
+1498,,Saint-Leonard,False,99
+1499,,Saint-Leonard,,99
+1500,QC,Saint-Léonard,,98
+1501,,Saint-Léonard,,98
+1502,,Wilkinsburg,False,96
+1503,PA,Mc Murray,,96
+1504,PA,Mc Murray,False,96
+1505,,Mc Murray,False,96
+1506,PA,Wilkinsburg,False,96
+1507,,Mc Murray,,96
+1508,,Sedona,False,95
+1509,,Sedona,,95
+1510,NY,,,95
+1511,AZ,Sedona,False,95
+1512,AZ,Sedona,,95
+1513,,Chestermere,,94
+1514,PA,Cheswick,,94
+1515,,Chestermere,False,94
+1516,AB,Chestermere,,94
+1517,AB,Chestermere,False,94
+1518,,Cheswick,,94
+1519,ON,Aurora,True,94
+1520,,Saint-Léonard,False,93
+1521,QC,Saint-Léonard,False,93
+1522,PA,South Park,,93
+1523,,South Park,,93
+1524,NY,,False,93
+1525,,Beachwood,True,92
+1526,NV,N Las Vegas,,92
+1527,,Cheswick,False,92
+1528,PA,Cheswick,False,92
+1529,NV,N Las Vegas,False,92
+1530,,N Las Vegas,False,92
+1531,,South Park,False,92
+1532,,N Las Vegas,,92
+1533,OH,Beachwood,True,92
+1534,PA,South Park,False,92
+1535,,Laval,True,90
+1536,,Kent,True,90
+1537,QC,Laval,True,90
+1538,OH,Kent,True,90
+1539,,Bainbridge,,89
+1540,,Boisbriand,False,89
+1541,QC,Boisbriand,False,89
+1542,,Boisbriand,,89
+1543,OH,Bainbridge,,89
+1544,QC,Boisbriand,,89
+1545,ON,Richmond Hil,False,88
+1546,ON,Richmond Hil,,88
+1547,,Richmond Hil,False,88
+1548,,Richmond Hil,,88
+1549,,Etna,,88
+1550,,Etna,False,88
+1551,PA,Etna,,88
+1552,PA,Etna,False,88
+1553,,Lawrenceville,,87
+1554,,Saint-Jérôme,,87
+1555,,Woodbridge,True,87
+1556,ON,Woodbridge,True,87
+1557,,Lawrenceville,False,87
+1558,PA,Lawrenceville,,87
+1559,QC,Saint-Jérôme,,87
+1560,PA,Lawrenceville,False,87
+1561,ON,Pickering,True,86
+1562,,Pickering,True,86
+1563,QC,Chambly,,86
+1564,,Chambly,,86
+1565,QC,Chambly,False,85
+1566,OH,Sheffield,,85
+1567,,Sheffield,,85
+1568,,Sheffield,False,85
+1569,OH,Sheffield,False,85
+1570,,Chambly,False,85
+1571,,Downtown,,84
+1572,OH,Bainbridge,False,84
+1573,PA,Downtown,,84
+1574,,Bainbridge,False,84
+1575,QC,Saint-Jérôme,False,83
+1576,,Saint-Jérôme,False,83
+1577,,Downtown,False,83
+1578,PA,Downtown,False,83
+1579,,Cuyahoga Falls,True,82
+1580,OH,Strongsville,True,82
+1581,OH,Cuyahoga Falls,True,82
+1582,OH,Columbia Station,False,82
+1583,,Strongsville,True,82
+1584,,Columbia Station,False,82
+1585,OH,Columbia Station,,82
+1586,,Columbia Station,,82
+1587,PA,Presto,,81
+1588,,Presto,,81
+1589,PA,Oakland,,81
+1590,,Oakland,,81
+1591,,Walton Hills,,80
+1592,OH,Walton Hills,False,80
+1593,OH,Walton Hills,,80
+1594,,Walton Hills,False,80
+1595,PA,Presto,False,79
+1596,,Presto,False,79
+1597,NC,Gastonia,True,78
+1598,,Gastonia,True,78
+1599,,Peters Township,,78
+1600,PA,Peters Township,,78
+1601,PA,Oakland,False,78
+1602,PA,Peters Township,False,78
+1603,WI,Belleville,,78
+1604,,Peters Township,False,78
+1605,,St-Benoît de Mirabel,,78
+1606,QC,Terrebonne,,78
+1607,,Oakland,False,78
+1608,QC,St-Benoît de Mirabel,,78
+1609,,Terrebonne,,78
+1610,,Belleville,,78
+1611,PA,Arnold,,77
+1612,,St-Benoît de Mirabel,False,77
+1613,,Avalon,,77
+1614,QC,St-Benoît de Mirabel,False,77
+1615,PA,Avalon,,77
+1616,,Belleville,False,77
+1617,WI,Belleville,False,77
+1618,,Fairview Park,True,77
+1619,OH,Fairview Park,True,77
+1620,,Arnold,,77
+1621,QC,Hudson,,76
+1622,ON,Etibicoke,,76
+1623,PA,South Park Township,,76
+1624,,Ft. Mill,,76
+1625,,South Park Township,,76
+1626,QC,Hudson,False,76
+1627,SC,Ft. Mill,,76
+1628,,Etibicoke,,76
+1629,,Fitchburg,True,75
+1630,SC,Ft. Mill,False,75
+1631,,South Park Township,False,75
+1632,,Avalon,False,75
+1633,,Etibicoke,False,75
+1634,PA,Avalon,False,75
+1635,WI,Fitchburg,True,75
+1636,PA,South Park Township,False,75
+1637,,Ft. Mill,False,75
+1638,ON,Etibicoke,False,75
+1639,,Terrebonne,False,74
+1640,QC,Terrebonne,False,74
+1641,AZ,GILBERT,,74
+1642,,GILBERT,,74
+1643,NC,Weddington,,73
+1644,,Saint-Eustache,,73
+1645,NC,Weddington,False,73
+1646,,Ajax,True,73
+1647,ON,Ajax,True,73
+1648,,Weddington,False,73
+1649,QC,Saint-Eustache,,73
+1650,,Weddington,,73
+1651,,Monongahela,False,72
+1652,PA,Monongahela,,72
+1653,PA,Monongahela,False,72
+1654,ON,Oakville,True,72
+1655,,Oakville,True,72
+1656,,Monongahela,,72
+1657,,Saint-Eustache,False,71
+1658,AZ,GILBERT,False,71
+1659,,GILBERT,False,71
+1660,,Beaconsfield,,71
+1661,QC,Saint-Eustache,False,71
+1662,QC,Beaconsfield,,71
+1663,,Arnold,False,70
+1664,OH,Solon,True,70
+1665,PA,Arnold,False,70
+1666,NC,Mint  Hill,,70
+1667,,Solon,True,70
+1668,,Mint  Hill,,70
+1669,,Mint  Hill,False,69
+1670,NC,Mint  Hill,False,69
+1671,QC,Montréal-Ouest,False,67
+1672,,Montréal-Ouest,,67
+1673,IL,Saint Joseph,,67
+1674,,Montreal,True,67
+1675,,Montréal-Ouest,False,67
+1676,QC,Montreal,True,67
+1677,QC,Montréal-Ouest,,67
+1678,,Saint Joseph,,67
+1679,ON,Whitby,True,66
+1680,,Whitby,True,66
+1681,QC,Beaconsfield,False,66
+1682,,Beaconsfield,False,66
+1683,NY,Rouses Point,,65
+1684,OH,Hudson,True,65
+1685,IL,Saint Joseph,False,65
+1686,,Saint Joseph,False,65
+1687,,Rouses Point,,65
+1688,PA,Mckees Rocks,,65
+1689,,Hudson,True,65
+1690,,Mckees Rocks,,65
+1691,WI,Paoli,False,64
+1692,,Paoli,,64
+1693,PA,Mckees Rocks,False,64
+1694,ON,Kleinburg,,64
+1695,,Mckees Rocks,False,64
+1696,,Paoli,False,64
+1697,,Litchfield Park,True,64
+1698,WI,Paoli,,64
+1699,AZ,Litchfield Park,True,64
+1700,,Kleinburg,,64
+1701,,Midland,,64
+1702,,North Olmsted,True,64
+1703,OH,North Olmsted,True,64
+1704,NC,Midland,,64
+1705,,Lower Burrell,,63
+1706,OH,Rocky River,True,63
+1707,PA,Lower Burrell,,63
+1708,OH,North Olmstead,,63
+1709,,Rouses Point,False,63
+1710,,North Olmstead,,63
+1711,,Rocky River,True,63
+1712,,Midland,False,63
+1713,NY,Rouses Point,False,63
+1714,OH,North Olmstead,False,63
+1715,,North Olmstead,False,63
+1716,NC,Midland,False,63
+1717,,Canonsburg,True,62
+1718,PA,Lower Burrell,False,62
+1719,PA,Canonsburg,True,62
+1720,,Lower Burrell,False,62
+1721,ON,Unionville,True,62
+1722,,Mt Lebanon,,62
+1723,PA,Mt Lebanon,,62
+1724,,Unionville,True,62
+1725,,Kleinburg,False,61
+1726,SC,Fort  Mill,False,61
+1727,,Fort  Mill,,61
+1728,QC,Sainte-Julie,False,61
+1729,,Sainte-Julie,False,61
+1730,SC,Fort  Mill,,61
+1731,,Wilmerding,False,61
+1732,,Wilmerding,,61
+1733,QC,Sainte-Julie,,61
+1734,,Fort  Mill,False,61
+1735,PA,Wilmerding,,61
+1736,PA,Wilmerding,False,61
+1737,,Sainte-Julie,,61
+1738,ON,Kleinburg,False,61
+1739,PA,Wilkins Township,False,60
+1740,OH,Hinckley,,60
+1741,OH,Hinckley,False,60
+1742,,Wilkins Township,,60
+1743,,Sun City,True,60
+1744,,Forest Hills,,60
+1745,,N Ridgeville,,60
+1746,QC,Brossard,True,60
+1747,PA,Forest Hills,False,60
+1748,,Brossard,True,60
+1749,AZ,Sun City,True,60
+1750,OH,N Ridgeville,False,60
+1751,,N Ridgeville,False,60
+1752,PA,Forest Hills,,60
+1753,PA,Wilkins Township,,60
+1754,OH,Woodmere,True,60
+1755,,Forest Hills,False,60
+1756,,Wilkins Township,False,60
+1757,,Hinckley,,60
+1758,,Woodmere,True,60
+1759,,Hinckley,False,60
+1760,OH,N Ridgeville,,60
+1761,,Mt Lebanon,False,59
+1762,,Verdun,True,59
+1763,PA,Mt Lebanon,False,59
+1764,QC,Verdun,True,59
+1765,NV,Nellis AFB,False,59
+1766,,Nellis AFB,False,59
+1767,,Nellis AFB,,59
+1768,NV,Nellis AFB,,59
+1769,OH,Brookpark,,58
+1770,,Nobleton,False,58
+1771,,Brookpark,,58
+1772,ON,Nobleton,False,58
+1773,,Nobleton,,58
+1774,ON,Nobleton,,58
+1775,NC,Harrisburg,True,57
+1776,QC,Châteauguay,,57
+1777,,Castle Shannon,False,57
+1778,,Mentor,True,57
+1779,QC,Vimont,,57
+1780,PA,Castle Shannon,,57
+1781,QC,Saint-Laurent,True,57
+1782,,Vimont,False,57
+1783,,Harrisburg,True,57
+1784,,Castle Shannon,,57
+1785,,Dollard-des Ormeaux,,57
+1786,PA,Castle Shannon,False,57
+1787,QC,Vimont,False,57
+1788,,York,True,57
+1789,OH,Mentor,True,57
+1790,,Châteauguay,,57
+1791,,Saint-Laurent,True,57
+1792,,Vimont,,57
+1793,QC,Dollard-des Ormeaux,,57
+1794,ON,York,True,57
+1795,,Châteauguay,False,56
+1796,,Sainte-Thérèse,,56
+1797,,Sainte-Thérèse,False,56
+1798,,East Liberty,,56
+1799,PA,East Liberty,False,56
+1800,QC,Châteauguay,False,56
+1801,QC,Sainte-Thérèse,,56
+1802,QC,Sainte-Thérèse,False,56
+1803,PA,East Liberty,,56
+1804,,East Liberty,False,56
+1805,OH,Berea,True,56
+1806,,Berea,True,56
+1807,QC,Montreal-Nord,False,55
+1808,QC,Montreal-Nord,,55
+1809,,Painesville,True,55
+1810,,Montreal-Nord,False,55
+1811,NV,Boulder City,True,55
+1812,,East York,True,55
+1813,NC,McAdenville,,55
+1814,,Montreal-Nord,,55
+1815,,Avon,True,55
+1816,OH,Painesville,True,55
+1817,,Sainte-Adèle,,55
+1818,OH,Avon,True,55
+1819,,McAdenville,,55
+1820,,McAdenville,False,55
+1821,,Boulder City,True,55
+1822,ON,East York,True,55
+1823,NC,McAdenville,False,55
+1824,OH,Brookpark,False,54
+1825,WI,Sauk City,,54
+1826,,Mentor On The Lake,,54
+1827,,Blainville,,54
+1828,QC,Blainville,,54
+1829,WI,Mcfarland,False,54
+1830,WI,Mcfarland,,54
+1831,OH,Mentor On The Lake,,54
+1832,,Mcfarland,False,54
+1833,OH,Mentor On The Lake,False,54
+1834,,Mcfarland,,54
+1835,,Mentor On The Lake,False,54
+1836,,Sauk City,,54
+1837,,Brookpark,False,54
+1838,PA,Ben Avon,False,53
+1839,,Olmsted Township,False,53
+1840,QC,Saint-Lazare,,53
+1841,OH,Olmsted Township,,53
+1842,PA,Ben Avon,,53
+1843,,Ben Avon,False,53
+1844,,Saint-Lazare,,53
+1845,OH,Orange Village,True,53
+1846,PA,Library,,53
+1847,,Olmsted Township,,53
+1848,,Baldwin,,53
+1849,PA,Baldwin,,53
+1850,,Ben Avon,,53
+1851,,Jefferson Hills,,53
+1852,,Orange Village,True,53
+1853,PA,Jefferson Hills,,53
+1854,OH,Olmsted Township,False,53
+1855,,Library,,53
+1856,PA,Library,False,53
+1857,,Library,False,53
+1858,,Jefferson Hills,False,52
+1859,,Baldwin,False,52
+1860,PA,Jefferson Hills,False,52
+1861,,Avon Lake,True,52
+1862,PA,Baldwin,False,52
+1863,OH,Avon Lake,True,52
+1864,,Blainville,False,51
+1865,,Paradise Valley,True,51
+1866,,Lyndhurst,True,51
+1867,,Dollard-des Ormeaux,False,51
+1868,PA,Lower burrell,,51
+1869,QC,Blainville,False,51
+1870,QC,Dollard-des Ormeaux,False,51
+1871,PA,Coraopolis,True,51
+1872,,Coraopolis,True,51
+1873,OH,Lyndhurst,True,51
+1874,,Stow,True,51
+1875,,Wexford,True,51
+1876,OH,Stow,True,51
+1877,PA,Wexford,True,51
+1878,AZ,Paradise Valley,True,51
+1879,,Lower burrell,,51
+1880,,Sainte-Adèle,False,51
+1881,,Medina Township,,50
+1882,,PHOENIX,False,50
+1883,,Sauk City,False,50
+1884,,PHOENIX,,50
+1885,WI,Monona,True,50
+1886,AZ,PHOENIX,False,50
+1887,,Monona,True,50
+1888,OH,Medina Township,,50
+1889,AZ,PHOENIX,,50
+1890,WI,Sauk City,False,50
+1891,,Harrisbug,False,49
+1892,OH,Medina Township,False,49
+1893,NC,Harrisbug,,49
+1894,,Lower burrell,False,49
+1895,,Rosemère,,49
+1896,QC,Rosemère,,49
+1897,,Harrisbug,,49
+1898,,Medina Township,False,49
+1899,,Saint-Lazare,False,49
+1900,PA,Lower burrell,False,49
+1901,,Mont-Saint-Hilaire,,49
+1902,NC,Harrisbug,False,49
+1903,QC,Saint-Lazare,False,49
+1904,QC,Mont-Saint-Hilaire,,49
+1905,OH,Bratenahl,,48
+1906,,Russellton,,48
+1907,,Rosemère,False,48
+1908,QC,Rosemère,False,48
+1909,,Russellton,False,48
+1910,PA,Russellton,,48
+1911,PA,Russellton,False,48
+1912,OH,Bratenahl,False,48
+1913,,Mont-Saint-Hilaire,False,48
+1914,,Bratenahl,False,48
+1915,QC,Mont-Saint-Hilaire,False,48
+1916,,Bratenahl,,48
+1917,,Independence,True,47
+1918,,Mantua,False,47
+1919,,Elizabeth Township,,47
+1920,OH,Mantua,,47
+1921,,Elizabeth Township,False,47
+1922,OH,Mantua,False,47
+1923,PA,Elizabeth Township,,47
+1924,QC,Sainte-Adèle,,47
+1925,PA,Elizabeth Township,False,47
+1926,,Mantua,,47
+1927,OH,Independence,True,47
+1928,,Richmond Heights,True,46
+1929,,Warrensville Hts.,,46
+1930,AZ,GOODYEAR,False,46
+1931,OH,Warrensville Hts.,,46
+1932,NV,Las  Vegas,True,46
+1933,,GOODYEAR,False,46
+1934,,Las  Vegas,True,46
+1935,,Cecil,True,46
+1936,,GOODYEAR,,46
+1937,PA,Cecil,True,46
+1938,AZ,GOODYEAR,,46
+1939,OH,Richmond Heights,True,46
+1940,,St Joseph,False,45
+1941,,Sun Prairie,True,45
+1942,,St Joseph,,45
+1943,IL,St Joseph,False,45
+1944,,Sainte-Anne-De-Bellevue,,45
+1945,QC,Sainte-Anne-De-Bellevue,False,45
+1946,OH,Warrensville Hts.,False,45
+1947,QC,Sainte-Anne-De-Bellevue,,45
+1948,,El Mirage,True,45
+1949,WI,Sun Prairie,True,45
+1950,AZ,El Mirage,True,45
+1951,,Sainte-Anne-De-Bellevue,False,45
+1952,,Warrensville Hts.,False,45
+1953,IL,St Joseph,,45
+1954,,Venetia,,44
+1955,QC,Sainte-Adèle,False,44
+1956,PA,Venetia,,44
+1957,ON,Milton,False,43
+1958,,Venetia,False,43
+1959,PA,Venetia,False,43
+1960,,Milton,,43
+1961,ON,Milton,,43
+1962,OH,Bath,,43
+1963,,Milton,False,43
+1964,,Bath,,43
+1965,,Delson,,42
+1966,QC,Delson,,42
+1967,,Tolleson,True,42
+1968,AZ,Tolleson,True,42
+1969,OH,Bath,False,42
+1970,,Bath,False,42
+1971,ON,King,False,41
+1972,ON,Schomberg,,41
+1973,AZ,Carefree,True,41
+1974,QC,Chateauguay,,41
+1975,,Tuscola,,41
+1976,,Chagrin Falls,True,41
+1977,,Schomberg,,41
+1978,,Delson,False,41
+1979,,King,,41
+1980,QC,Delson,False,41
+1981,OH,Chagrin Falls,True,41
+1982,OH,Sheffield Lake,,41
+1983,,Sheffield Lake,,41
+1984,,Schomberg,False,41
+1985,ON,Waterloo,,41
+1986,OH,Sheffield Lake,False,41
+1987,ON,Schomberg,False,41
+1988,,Sheffield Lake,False,41
+1989,ON,Waterloo,False,41
+1990,,Carefree,True,41
+1991,,Chateauguay,False,41
+1992,IL,Tuscola,,41
+1993,,Waterloo,,41
+1994,,Chateauguay,,41
+1995,,King,False,41
+1996,,Waterloo,False,41
+1997,QC,Chateauguay,False,41
+1998,ON,King,,41
+1999,PA,Harmarville,,40
+2000,PA,Swissvale,,40
+2001,,Broadview Heights,True,40
+2002,OH,Broadview Heights,True,40
+2003,PA,Swissvale,False,40
+2004,,Swissvale,,40
+2005,,Swissvale,False,40
+2006,,Harmarville,,40
+2007,PA,Export,,39
+2008,QC,Rigaud,,39
+2009,,Rigaud,,39
+2010,QC,Saint-Hyacinthe,,39
+2011,PA,Brookline,,39
+2012,PA,Export,False,39
+2013,,Medina,True,39
+2014,,Brookline,,39
+2015,,Saint-Hyacinthe,False,39
+2016,,Dravosburg,,39
+2017,,Dravosburg,False,39
+2018,,Dollard-Des Ormeaux,False,39
+2019,,Saint-Hyacinthe,,39
+2020,,Export,,39
+2021,PA,Dravosburg,False,39
+2022,PA,Dravosburg,,39
+2023,QC,Dollard-Des Ormeaux,False,39
+2024,QC,Dollard-Des Ormeaux,,39
+2025,,Rosemere,,39
+2026,,Dollard-Des Ormeaux,,39
+2027,,Export,False,39
+2028,QC,Saint-Hyacinthe,False,39
+2029,QC,Rosemere,,39
+2030,OH,Medina,True,39
+2031,,Brookline,False,38
+2032,NC,Ranlo,,38
+2033,,Brooklyn,True,38
+2034,NC,Lowesville,,38
+2035,NC,Lowesville,False,38
+2036,,Harmarville,False,38
+2037,,Lowesville,,38
+2038,,Indian land,False,38
+2039,,Indian land,,38
+2040,PA,Brookline,False,38
+2041,,Lowesville,False,38
+2042,PA,Harmarville,False,38
+2043,,Ranlo,,38
+2044,ON,Uxbridge,,37
+2045,QC,LaSalle,,37
+2046,,Blawnox,,37
+2047,,Rigaud,False,37
+2048,QC,Rigaud,False,37
+2049,,LaSalle,,37
+2050,,Anthem,True,37
+2051,,Uxbridge,,37
+2052,OH,Brooklyn,True,37
+2053,AZ,Anthem,True,37
+2054,PA,Blawnox,,37
+2055,AB,Midnapore,,37
+2056,,Midnapore,,37
+2057,,Uxbridge,False,36
+2058,OH,Willoughby,True,36
+2059,,Ranlo,False,36
+2060,PA,Homestead,True,36
+2061,,East Ajax,False,36
+2062,,East Ajax,,36
+2063,,Waxhaw,True,36
+2064,,Willoughby,True,36
+2065,NC,Ranlo,False,36
+2066,OH,Aurora,True,36
+2067,,Rosemere,False,36
+2068,,Homestead,True,36
+2069,NC,Waxhaw,True,36
+2070,ON,East Ajax,,36
+2071,QC,Rosemere,False,36
+2072,ON,East Ajax,False,36
+2073,,Verona,True,36
+2074,,Midnapore,False,36
+2075,,Tuscola,False,36
+2076,ON,Uxbridge,False,36
+2077,OH,Macedonia,True,36
+2078,AB,Midnapore,False,36
+2079,IL,Tuscola,False,36
+2080,,Macedonia,True,36
+2081,PA,Blawnox,False,35
+2082,OH,Ravenna,,35
+2083,,NELLIS AFB,False,35
+2084,NV,NELLIS AFB,,35
+2085,NV,NELLIS AFB,False,35
+2086,QC,La Salle,,35
+2087,,Blawnox,False,35
+2088,,Ravenna,,35
+2089,,NELLIS AFB,,35
+2090,,La Salle,,35
+2091,,Glassport,,34
+2092,QC,St-Jerome,,34
+2093,,Lagrange,False,34
+2094,QC,La Salle,False,34
+2095,,LaSalle,False,34
+2096,OH,Lagrange,,34
+2097,AB,Airdrie,True,34
+2098,,La Salle,False,34
+2099,,Airdrie,True,34
+2100,,Lagrange,,34
+2101,QC,LaSalle,False,34
+2102,PA,Glassport,,34
+2103,,Sagamore Hills,,34
+2104,OH,Sagamore Hills,,34
+2105,,St-Jerome,,34
+2106,,East Cleveland,,34
+2107,OH,Lagrange,False,34
+2108,OH,East Cleveland,,34
+2109,,Shorewood Hills,,33
+2110,,East Cleveland,False,33
+2111,QC,Saint-Henri,,33
+2112,,Ravenna,False,33
+2113,,Mount Albert,,33
+2114,,Shorewood Hills,False,33
+2115,QC,St-Jerome,False,33
+2116,ON,Mount Albert,False,33
+2117,,St-Jerome,False,33
+2118,WI,Shorewood Hills,,33
+2119,PA,Glassport,False,33
+2120,,Glassport,False,33
+2121,,Saint-Henri,,33
+2122,PA,Bethel Park,True,33
+2123,,Mount Albert,False,33
+2124,OH,Ravenna,False,33
+2125,,Sagamore Hills,False,33
+2126,WI,Shorewood Hills,False,33
+2127,OH,East Cleveland,False,33
+2128,OH,Sagamore Hills,False,33
+2129,ON,Mount Albert,,33
+2130,,Bethel Park,True,33
+2131,OH,Twinsburg,True,32
+2132,,Twinsburg,True,32
+2133,PA,Herminie,False,32
+2134,,Brunswick,True,32
+2135,,Herminie,,32
+2136,,Saint-Henri,False,32
+2137,QC,Lachute,False,32
+2138,PA,Herminie,,32
+2139,QC,Saint-Henri,False,32
+2140,QC,Lachute,,32
+2141,,North Toronto,,32
+2142,,Montréal-Nord,,32
+2143,ON,North Toronto,False,32
+2144,QC,Dollard-des-Ormeaux,True,32
+2145,ON,North Toronto,,32
+2146,,Herminie,False,32
+2147,PA,New Eagle,,32
+2148,,New Eagle,,32
+2149,,Lachute,False,32
+2150,,Lachute,,32
+2151,,Sainte-Adele,,32
+2152,QC,Montréal-Nord,,32
+2153,PA,New Eagle,False,32
+2154,OH,Brunswick,True,32
+2155,,New Eagle,False,32
+2156,,North Toronto,False,32
+2157,,Dollard-des-Ormeaux,True,32
+2158,QC,Sainte-Adele,,32
+2159,QC,Montréal-Nord,False,31
+2160,,Mayfield Heights,True,31
+2161,,Ogden,,31
+2162,,Waddell,False,31
+2163,OH,Highland Heights,True,31
+2164,,Waddell,,31
+2165,,Beeton,,31
+2166,OH,Mayfield Heights,True,31
+2167,AZ,Waddell,,31
+2168,QC,Montreal-West,,31
+2169,,Guadalupe,True,31
+2170,,Ogden,False,31
+2171,,Montreal-West,False,31
+2172,,Montreal-West,,31
+2173,,Montréal-Nord,False,31
+2174,,Highland Heights,True,31
+2175,AZ,Waddell,False,31
+2176,QC,Montreal-West,False,31
+2177,AZ,Guadalupe,True,31
+2178,IL,Ogden,False,31
+2179,IL,Ogden,,31
+2180,ON,Beeton,,31
+2181,PA,Carnegie,True,30
+2182,QC,Beloeil,,30
+2183,,McCandless,False,30
+2184,QC,L'ile-Perrot,,30
+2185,,Beloeil,,30
+2186,QC,Beloeil,False,30
+2187,,McCandless,,30
+2188,,Beloeil,False,30
+2189,QC,L'ile-Perrot,False,30
+2190,PA,McCandless,False,30
+2191,,L'ile-Perrot,False,30
+2192,,L'ile-Perrot,,30
+2193,PA,McCandless,,30
+2194,,Carnegie,True,30
+2195,,Balzac,False,29
+2196,,Auburn Township,False,29
+2197,OH,Auburn Township,,29
+2198,,Balzac,,29
+2199,,Mascouche,,29
+2200,,Brunswick Hills,False,29
+2201,OH,Brunswick Hills,False,29
+2202,,Kannapolis,True,29
+2203,,Brunswick Hills,,29
+2204,AB,Balzac,,29
+2205,OH,Brunswick Hills,,29
+2206,QC,Sainte-Adele,False,29
+2207,NC,Kannapolis,True,29
+2208,AB,Balzac,False,29
+2209,,Auburn Township,,29
+2210,QC,Mascouche,,29
+2211,OH,Auburn Township,False,29
+2212,,Sainte-Adele,False,29
+2213,OH,Shaker Heights,True,28
+2214,,Shaker Heights,True,28
+2215,,Beeton,False,28
+2216,ON,Beeton,False,28
+2217,OH,Fairlawn,True,27
+2218,OH,Cleveland Hghts.,,27
+2219,,Elrama,False,27
+2220,,Mcknight,,27
+2221,PA,Shaler Township,,27
+2222,OH,Bainbridge Township,,27
+2223,,Bainbridge Township,,27
+2224,,Saint-Constant,,27
+2225,QC,Saint-Constant,False,27
+2226,,Mascouche,False,27
+2227,PA,Elrama,False,27
+2228,,Wickliffe,True,27
+2229,AZ,cave creek,False,27
+2230,,Mcmurray,False,27
+2231,,Elrama,,27
+2232,QC,Saint-Constant,,27
+2233,,Cleveland Hghts.,,27
+2234,,cave creek,,27
+2235,,Mcmurray,,27
+2236,,Saint-Constant,False,27
+2237,OH,Cleveland Hghts.,False,27
+2238,PA,Elrama,,27
+2239,OH,Bainbridge Township,False,27
+2240,PA,Mcmurray,False,27
+2241,PA,Mcknight,False,27
+2242,AZ,cave creek,,27
+2243,PA,Mcknight,,27
+2244,,Cleveland Hghts.,False,27
+2245,PA,Mcmurray,,27
+2246,,Shaler Township,,27
+2247,,cave creek,False,27
+2248,OH,Wickliffe,True,27
+2249,,Fairlawn,True,27
+2250,,Bainbridge Township,False,27
+2251,QC,Mascouche,False,27
+2252,,Mcknight,False,27
+2253,ON,Goodwood,False,26
+2254,,Rio Verde,False,26
+2255,PA,Shaler Township,False,26
+2256,,Mount Washington,False,26
+2257,,Rio Verde,,26
+2258,,Black Earth,False,26
+2259,AZ,Rio Verde,False,26
+2260,WI,Black Earth,False,26
+2261,,Mount Washington,,26
+2262,,Indian Land,True,26
+2263,NC,Davidson,True,26
+2264,PA,Mount Washington,,26
+2265,ON,Goodwood,,26
+2266,,Goodwood,False,26
+2267,PA,Mount Washington,False,26
+2268,,Goodwood,,26
+2269,,Shaler Township,False,26
+2270,WI,Black Earth,,26
+2271,,Davidson,True,26
+2272,SC,Indian Land,True,26
+2273,,Black Earth,,26
+2274,AZ,Rio Verde,,26
+2275,OH,Northfield,True,25
+2276,,North Royalton,True,25
+2277,,Monroe,True,25
+2278,AZ,Central,,25
+2279,,Northfield,True,25
+2280,AZ,Central,False,25
+2281,OH,Elyria,True,25
+2282,,Elyria,True,25
+2283,OH,North Ridgeville,True,25
+2284,,Central,,25
+2285,ON,Scarobrough,False,25
+2286,,Tega Cay,True,25
+2287,,North Ridgeville,True,25
+2288,OH,North Royalton,True,25
+2289,NC,Monroe,True,25
+2290,,Central,False,25
+2291,ON,Scarobrough,,25
+2292,,Scarobrough,,25
+2293,,Scarobrough,False,25
+2294,SC,Tega Cay,True,25
+2295,,Kahnawake,,24
+2296,QC,Kahnawake,,24
+2297,,SCOTTSDALE,False,24
+2298,PA,Verona,True,24
+2299,,St-Leonard,,24
+2300,,Shadyside,,24
+2301,SC,York,,24
+2302,,Stallings,True,24
+2303,,SCOTTSDALE,,24
+2304,QC,St-Leonard,,24
+2305,OH,Streetsboro,True,24
+2306,QC,Mont-Saint-Grégoire,,24
+2307,,Kahnawake,False,24
+2308,,Streetsboro,True,24
+2309,AZ,SCOTTSDALE,,24
+2310,PA,Shadyside,,24
+2311,,Mont-Saint-Grégoire,,24
+2312,AZ,SCOTTSDALE,False,24
+2313,QC,Kahnawake,False,24
+2314,SC,York,False,24
+2315,NC,Stallings,True,24
+2316,,Mc Donald,False,23
+2317,,Mc Donald,,23
+2318,,Oakwood,False,23
+2319,,Bradford,True,23
+2320,,Mont-Saint-Grégoire,False,23
+2321,,Northwest Calgary,,23
+2322,QC,Mont-Saint-Grégoire,False,23
+2323,NC,Indian land,,23
+2324,AB,Northwest Calgary,,23
+2325,OH,Oakwood,False,23
+2326,OH,Oakwood,,23
+2327,AB,Northwest Calgary,False,23
+2328,,Shadyside,False,23
+2329,PA,Bellvue,False,23
+2330,PA,Shadyside,False,23
+2331,PA,Murrysville,True,23
+2332,,Oakwood,,23
+2333,,St-Leonard,False,23
+2334,,Murrysville,True,23
+2335,,Northwest Calgary,False,23
+2336,,Bellvue,,23
+2337,PA,Mc Donald,False,23
+2338,PA,Mc Donald,,23
+2339,,Bridgeville,True,23
+2340,PA,Bellvue,,23
+2341,ON,Bradford,True,23
+2342,AZ,Buckeye,True,23
+2343,,Buckeye,True,23
+2344,,Bellvue,False,23
+2345,NC,Indian land,False,23
+2346,PA,Bridgeville,True,23
+2347,QC,St-Leonard,False,23
+2348,OH,Chesterland,True,22
+2349,ON,Thornhil,,22
+2350,,Chesterland,True,22
+2351,,Saint-Jerome,False,22
+2352,QC,Saint-Jerome,,22
+2353,,Champlain,False,22
+2354,,L'Île-Bizard,False,22
+2355,AZ,Phx,,22
+2356,NY,Champlain,,22
+2357,OH,South Euclid,True,22
+2358,NY,Champlain,False,22
+2359,,L'Île-Bizard,,22
+2360,,Clarkson,,22
+2361,QC,L'Île-Bizard,,22
+2362,,Champlain,,22
+2363,,Belmont,True,22
+2364,NC,Belmont,True,22
+2365,PA,Rostraver,False,22
+2366,,Thornhil,,22
+2367,,Rostraver,False,22
+2368,QC,L'Île-Bizard,False,22
+2369,ON,Clarkson,,22
+2370,,Phx,,22
+2371,,Saint-Jerome,,22
+2372,,South Euclid,True,22
+2373,PA,Rostraver,,22
+2374,QC,Saint-Jerome,False,22
+2375,,Rostraver,,22
+2376,,Clarkson,False,21
+2377,ON,Clarkson,False,21
+2378,,Willowdale,,21
+2379,,LAS VEGAS,,21
+2380,PA,Kennedy Township,,21
+2381,,Ste-Rose,False,21
+2382,ON,Willowdale,,21
+2383,OH,Parma Heights,True,21
+2384,ON,Thornhil,False,21
+2385,QC,Ste-Rose,,21
+2386,,Phx,False,21
+2387,WI,Brooklyn,,21
+2388,,New Kensington,True,21
+2389,,Thornhil,False,21
+2390,QC,Ste-Rose,False,21
+2391,AZ,Phx,False,21
+2392,,Ste-Rose,,21
+2393,,Willowdale,False,21
+2394,,Parma Heights,True,21
+2395,NV,LAS VEGAS,,21
+2396,,Kennedy Township,,21
+2397,PA,New Kensington,True,21
+2398,NV,LAS VEGAS,False,21
+2399,,LAS VEGAS,False,21
+2400,ON,Willowdale,False,21
+2401,,Estérel,False,20
+2402,,Kennedy Township,False,20
+2403,,North Randall,True,20
+2404,,Seven Hills,True,20
+2405,PA,East Mc Keesport,False,20
+2406,,East Mc Keesport,False,20
+2407,WI,Dane,False,20
+2408,QC,Estérel,,20
+2409,OH,Seven Hills,True,20
+2410,,East Pittsburgh,,20
+2411,,East Mc Keesport,,20
+2412,,Dane,False,20
+2413,OH,North Randall,True,20
+2414,WI,Brooklyn,False,20
+2415,QC,Estérel,False,20
+2416,PA,East Mc Keesport,,20
+2417,,Estérel,,20
+2418,WI,Dane,,20
+2419,,Dane,,20
+2420,PA,East Pittsburgh,,20
+2421,PA,Kennedy Township,False,20
+2422,QC,Saint-Bruno-de-Montarville,False,19
+2423,,Saint-Bruno-de-Montarville,,19
+2424,,Saint-Bruno-de-Montarville,False,19
+2425,,Repentigny,,19
+2426,,Repentigny,False,19
+2427,PA,Allentown,,19
+2428,QC,Saint-Bruno-de-Montarville,,19
+2429,OH,Bedford,True,19
+2430,QC,Repentigny,False,19
+2431,,Bedford,True,19
+2432,,Allentown,,19
+2433,OH,Brook Park,True,19
+2434,QC,Repentigny,,19
+2435,,Brook Park,True,19
+2436,,McKees Rocks,True,18
+2437,PA,North Huntington,False,18
+2438,,Whiitby,False,18
+2439,PA,North Huntington,,18
+2440,,Lorain,True,18
+2441,QC,St-Bruno-de-Montarville,False,18
+2442,PA,McKees Rocks,True,18
+2443,,St-Bruno-de-Montarville,False,18
+2444,,St-Bruno-de-Montarville,,18
+2445,ON,Whiitby,,18
+2446,,Pheonix,False,18
+2447,PA,Allentown,False,18
+2448,OH,Troy Township,,18
+2449,QC,St-Bruno-de-Montarville,,18
+2450,,Pheonix,,18
+2451,,North Huntington,,18
+2452,,Lachine,True,18
+2453,OH,Lorain,True,18
+2454,,North Huntington,False,18
+2455,PA,Moon TWP,False,18
+2456,QC,Lachine,True,18
+2457,PA,Moon TWP,,18
+2458,,Oshawa,,18
+2459,ON,Oshawa,,18
+2460,,Oshawa,False,18
+2461,,Moon TWP,False,18
+2462,,Troy Township,False,18
+2463,AZ,Pheonix,,18
+2464,,Whiitby,,18
+2465,AZ,Pheonix,False,18
+2466,ON,Oshawa,False,18
+2467,,Allentown,False,18
+2468,,Bellevue,True,18
+2469,ON,Whiitby,False,18
+2470,,Troy Township,,18
+2471,OH,Troy Township,False,18
+2472,PA,Bellevue,True,18
+2473,,Moon TWP,,18
+2474,NC,Mt Holly,False,17
+2475,ON,Glen Williams,,17
+2476,PA,Lawrence,False,17
+2477,PA,Lawrence,,17
+2478,,Erie,,17
+2479,,Hendersonville,,17
+2480,QC,Sainte-Genevieve,,17
+2481,,East Pittsburgh,False,17
+2482,,Homer,,17
+2483,QC,Pointe-Claire,True,17
+2484,,Mt Holly,,17
+2485,PA,Hendersonville,False,17
+2486,,Sainte-Genevieve,False,17
+2487,,Homer,False,17
+2488,,Mt Holly,False,17
+2489,QC,Pierrefonds,True,17
+2490,,Glen Williams,,17
+2491,,Erie,False,17
+2492,QC,Sainte-Genevieve,False,17
+2493,IL,Homer,False,17
+2494,,Lawrence,False,17
+2495,,Sainte-Genevieve,,17
+2496,PA,Hendersonville,,17
+2497,NC,Mt Holly,,17
+2498,,Pierrefonds,True,17
+2499,IL,Homer,,17
+2500,OH,Erie,,17
+2501,,Pointe-Claire,True,17
+2502,PA,East Pittsburgh,False,17
+2503,OH,Erie,False,17
+2504,,Lawrence,,17
+2505,,Hendersonville,False,17
+2506,OH,Litchfield,False,16
+2507,ON,Regional Municipality of York,,16
+2508,PA,Rural Ridge,False,16
+2509,,Olmsted Falls,True,16
+2510,OH,Chargrin Falls,False,16
+2511,,Mint Hill,True,16
+2512,OH,kirtland,,16
+2513,,Litchfield,False,16
+2514,ON,Regional Municipality of York,False,16
+2515,QC,Outremont,True,16
+2516,,Mesa AZ,,16
+2517,,Eastlake,True,16
+2518,,Cuddy,,16
+2519,ON,Caledon East,,16
+2520,,Mesa AZ,False,16
+2521,,Neville Island,False,16
+2522,QC,St Leonard,,16
+2523,AZ,Mesa AZ,False,16
+2524,,Regional Municipality of York,,16
+2525,NC,Mint Hill,True,16
+2526,PA,Rural Ridge,,16
+2527,PA,Neville Island,,16
+2528,,Rural Ridge,False,16
+2529,,Communauté-Urbaine-de-Montréal,,16
+2530,,Communauté-Urbaine-de-Montréal,False,16
+2531,,Caledon East,False,16
+2532,,Caledon East,,16
+2533,OH,Eastlake,True,16
+2534,PA,Squirrel Hill,,16
+2535,PA,Cuddy,False,16
+2536,PA,Neville Island,False,16
+2537,OH,Litchfield,,16
+2538,,St Leonard,,16
+2539,PA,Cuddy,,16
+2540,PA,Belle Vernon,False,16
+2541,,Stoughton,True,16
+2542,,Neville Island,,16
+2543,ON,Caledon East,False,16
+2544,WI,Stoughton,True,16
+2545,,Cuddy,False,16
+2546,,Belle Vernon,,16
+2547,PA,Belle Vernon,,16
+2548,,Litchfield,,16
+2549,OH,Olmsted Falls,True,16
+2550,,Chargrin Falls,,16
+2551,,Regional Municipality of York,False,16
+2552,,Chargrin Falls,False,16
+2553,,Belle Vernon,False,16
+2554,,Rural Ridge,,16
+2555,ON,Glen Williams,False,16
+2556,,Squirrel Hill,,16
+2557,,Outremont,True,16
+2558,QC,Communauté-Urbaine-de-Montréal,,16
+2559,AZ,Mesa AZ,,16
+2560,,kirtland,,16
+2561,QC,Communauté-Urbaine-de-Montréal,False,16
+2562,,Glen Williams,False,16
+2563,OH,Chargrin Falls,,16
+2564,SC,Indian land,,15
+2565,,Saint-Bruno,False,15
+2566,,Saint-Marc-sur-Richelieu,False,15
+2567,,Tottenham,False,15
+2568,AZ,Fort Mcdowell,False,15
+2569,,Fort Mcdowell,False,15
+2570,,Fort Mcdowell,,15
+2571,WI,Deforest,,15
+2572,QC,Joliette,,15
+2573,QC,Saint-Marc-sur-Richelieu,False,15
+2574,,Joliette,,15
+2575,QC,Pointe-Aux-Trembles,,15
+2576,QC,Saint-Marc-sur-Richelieu,,15
+2577,,Tottenham,,15
+2578,ON,Tottenham,False,15
+2579,ON,Stouffville,True,15
+2580,SC,Indian land,False,15
+2581,,Pointe-Aux-Trembles,,15
+2582,,Deforest,False,15
+2583,PA,Robinson,True,15
+2584,WI,Deforest,False,15
+2585,,Central City Village,,15
+2586,,Stouffville,True,15
+2587,,West Mifflin,True,15
+2588,PA,West Mifflin,True,15
+2589,PA,Squirrel Hill,False,15
+2590,QC,Saint-Bruno,False,15
+2591,,St Leonard,False,15
+2592,AZ,Central City Village,,15
+2593,QC,Saint-Bruno,,15
+2594,,Joliette,False,15
+2595,AZ,Central City Village,False,15
+2596,AZ,Fort Mcdowell,,15
+2597,,Saint-Marc-sur-Richelieu,,15
+2598,QC,Joliette,False,15
+2599,,Robinson,True,15
+2600,,Deforest,,15
+2601,,Central City Village,False,15
+2602,ON,Tottenham,,15
+2603,,Squirrel Hill,False,15
+2604,,Saint Laurent,,15
+2605,,Saint-Bruno,,15
+2606,QC,Saint Laurent,,15
+2607,QC,St Leonard,False,15
+2608,,Thorncliffe Park,False,14
+2609,ON,Thorncliffe Park,,14
+2610,,Oregon,True,14
+2611,,Pointe-Aux-Trembles,False,14
+2612,,Mirabel,,14
+2613,ON,Etobiicoke,False,14
+2614,,Philo,False,14
+2615,,Hyland Heights,,14
+2616,,Green Valley,False,14
+2617,NV,Green Valley,,14
+2618,,Etobiicoke,False,14
+2619,,Middlefield,True,14
+2620,ON,River Drive Park,,14
+2621,WI,Oregon,True,14
+2622,ON,River Drive Park,False,14
+2623,IL,Philo,False,14
+2624,PA,North Strabane Township,,14
+2625,,kirtland,False,14
+2626,,Philo,,14
+2627,PA,Allison Park,True,14
+2628,QC,Mirabel,,14
+2629,,Allison Park,True,14
+2630,,Hyland Heights,False,14
+2631,PA,North Strabane Township,False,14
+2632,OH,Hyland Heights,False,14
+2633,,Northfield Center,,14
+2634,,River Drive Park,,14
+2635,QC,Sainte-Catherine,False,14
+2636,,Sainte-Catherine,,14
+2637,NM,Las Vegas,,14
+2638,IL,Philo,,14
+2639,,Sainte-Catherine,False,14
+2640,NM,,,14
+2641,,Westport,,14
+2642,OH,Hyland Heights,,14
+2643,OH,kirtland,False,14
+2644,NC,Westport,,14
+2645,QC,Sainte-Catherine,,14
+2646,,North Strabane Township,,14
+2647,OH,Northfield Center,,14
+2648,,Etobiicoke,,14
+2649,ON,Etobiicoke,,14
+2650,NV,Green Valley,False,14
+2651,,North Strabane Township,False,14
+2652,NC,Mooresville,True,14
+2653,,Thorncliffe Park,,14
+2654,OH,Middlefield,True,14
+2655,,Green Valley,,14
+2656,,Mooresville,True,14
+2657,ON,Thorncliffe Park,False,14
+2658,QC,Pointe-Aux-Trembles,False,14
+2659,,River Drive Park,False,14
+2660,,Ville Mont-Royal,,13
+2661,PA,Duquesne,False,13
+2662,,Saint Laurent,False,13
+2663,,Leetsdale,True,13
+2664,,South Amherst,False,13
+2665,NM,Las Vegas,False,13
+2666,,mesa,,13
+2667,IL,Gifford,,13
+2668,,Ville Mont-Royal,False,13
+2669,NV,Spring Valley,True,13
+2670,,Amherst,True,13
+2671,NM,,False,13
+2672,QC,Salaberry-De-Valleyfield,False,13
+2673,,TORONTO,False,13
+2674,,Duquesne,False,13
+2675,OH,Euclid,True,13
+2676,,TORONTO,,13
+2677,,Euclid,True,13
+2678,ON,TORONTO,False,13
+2679,,Salaberry-De-Valleyfield,False,13
+2680,NC,Westport,False,13
+2681,PA,Leetsdale,True,13
+2682,,Gifford,False,13
+2683,QC,Mirabel,False,13
+2684,,Mirabel,False,13
+2685,IL,Gifford,False,13
+2686,PA,Indianola,,13
+2687,,Gifford,,13
+2688,ON,TORONTO,,13
+2689,,Westport,False,13
+2690,OH,South Amherst,,13
+2691,WI,Marshall,,13
+2692,,Tallmadge,True,13
+2693,AZ,mesa,,13
+2694,,Marshall,False,13
+2695,QC,Saint Laurent,False,13
+2696,,mesa,False,13
+2697,,Salaberry-De-Valleyfield,,13
+2698,QC,Ville Mont-Royal,,13
+2699,AZ,mesa,False,13
+2700,,Indianola,,13
+2701,,Duquesne,,13
+2702,,South Amherst,,13
+2703,,Spring Valley,True,13
+2704,OH,South Amherst,False,13
+2705,QC,Ville Mont-Royal,False,13
+2706,OH,Tallmadge,True,13
+2707,QC,Salaberry-De-Valleyfield,,13
+2708,WI,Marshall,False,13
+2709,OH,Amherst,True,13
+2710,PA,Duquesne,,13
+2711,,Marshall,,13
+2712,,Fabreville,,12
+2713,PA,Creighton,,12
+2714,QC,Fabreville,False,12
+2715,,Schottsdale,,12
+2716,AZ,Schottsdale,,12
+2717,,Pahrump,False,12
+2718,PA,Creighton,False,12
+2719,,Gibsonia,True,12
+2720,,Inglewood,False,12
+2721,,Morin-Heights,,12
+2722,,Creighton,,12
+2723,,Schottsdale,False,12
+2724,NC,Montgomery,False,12
+2725,ON,Inglewood,False,12
+2726,,Montgomery,,12
+2727,ON,Maple,True,12
+2728,,Northfield Center,False,12
+2729,,Fabreville,False,12
+2730,QC,Morin-Heights,,12
+2731,PA,Indianola,False,12
+2732,,Morin-Heights,False,12
+2733,,Montgomery,False,12
+2734,OH,Northfield Center,False,12
+2735,,Indianola,False,12
+2736,,Inglewood,,12
+2737,,Whitchurch-Stouffville,True,12
+2738,,Glenshaw,True,12
+2739,PA,Glenshaw,True,12
+2740,,Maple,True,12
+2741,PA,Gibsonia,True,12
+2742,ON,Inglewood,,12
+2743,NC,Montgomery,,12
+2744,NV,Pahrump,False,12
+2745,QC,Fabreville,,12
+2746,,Creighton,False,12
+2747,WI,Verona,True,12
+2748,ON,Whitchurch-Stouffville,True,12
+2749,AZ,Schottsdale,False,12
+2750,,Pahrump,,12
+2751,QC,Morin-Heights,False,12
+2752,NV,Pahrump,,12
+2753,OH,Pepper Pike,True,11
+2754,,Pheonix AZ,,11
+2755,,Mount Holly,True,11
+2756,AZ,Central City,,11
+2757,,Pepper Pike,True,11
+2758,,Candiac,,11
+2759,,Mentor On the Lake,,11
+2760,,Georgetown,True,11
+2761,,Pincourt,False,11
+2762,,Pincourt,,11
+2763,NC,charlotte,True,11
+2764,ON,Mississuaga,,11
+2765,WI,DeForest,True,11
+2766,NC,Mount Holly,True,11
+2767,,Willowick,True,11
+2768,ON,Mississuaga,False,11
+2769,OH,Mentor On the Lake,False,11
+2770,AZ,Central City,False,11
+2771,,East McKeesport,,11
+2772,,Candiac,False,11
+2773,OH,Willowick,True,11
+2774,QC,Dorval,True,11
+2775,AB,Rocky View No. 44,,11
+2776,OH,Mentor On the Lake,,11
+2777,OH,Middleburg Heights,True,11
+2778,PA,McMurray,True,11
+2779,AZ,Pheonix AZ,False,11
+2780,PA,West Homestead,True,11
+2781,QC,Pincourt,,11
+2782,,Pheonix AZ,False,11
+2783,,Rocky View No. 44,,11
+2784,PA,East McKeesport,False,11
+2785,,McDonald,,11
+2786,QC,Candiac,False,11
+2787,PA,McDonald,,11
+2788,AZ,Pheonix AZ,,11
+2789,PA,McDonald,False,11
+2790,,Mississuaga,,11
+2791,,Mentor On the Lake,False,11
+2792,,West Homestead,True,11
+2793,,McMurray,True,11
+2794,,East McKeesport,False,11
+2795,,Middleburg Heights,True,11
+2796,QC,Candiac,,11
+2797,QC,Pincourt,False,11
+2798,ON,Georgetown,True,11
+2799,,Dorval,True,11
+2800,,Québec,,11
+2801,QC,Québec,,11
+2802,,Central City,False,11
+2803,QC,Québec,False,11
+2804,PA,East McKeesport,,11
+2805,,Mississuaga,False,11
+2806,,McDonald,False,11
+2807,,Central City,,11
+2808,,DeForest,True,11
+2809,,Québec,False,11
+2810,,charlotte,True,11
+2811,NV,Nellis Air Force Base,,10
+2812,,Gelndale,False,10
+2813,OH,Auburn Twp,,10
+2814,,Rocky View No. 44,False,10
+2815,ON,North  York,,10
+2816,,Malton,False,10
+2817,,Gelndale,,10
+2818,,Mahomet,True,10
+2819,,Malton,,10
+2820,,Nellis Air Force Base,False,10
+2821,,North  York,,10
+2822,OH,Auburn Twp,False,10
+2823,QC,Baie-d'Urfe,,10
+2824,,Beauharnois,,10
+2825,PA,Moon,True,10
+2826,FL,,False,10
+2827,,North  York,False,10
+2828,,Moon,True,10
+2829,QC,Mercier,,10
+2830,AZ,Gelndale,False,10
+2831,,Canonsburd,False,10
+2832,,Mt. Holly,,10
+2833,AZ,Gelndale,,10
+2834,,Sturgeon,False,10
+2835,AB,Rocky View No. 44,False,10
+2836,,Laveen,True,10
+2837,NV,Nellis Air Force Base,False,10
+2838,PA,Sewickley,True,10
+2839,,Mercier,,10
+2840,,Baie-d'Urfe,,10
+2841,FL,Hudson,False,10
+2842,PA,Canonsburd,False,10
+2843,IL,Mahomet,True,10
+2844,QC,Beauharnois,,10
+2845,,Nellis Air Force Base,,10
+2846,PA,Canonsburd,,10
+2847,ON,North  York,False,10
+2848,,Sewickley,True,10
+2849,FL,Hudson,,10
+2850,,Mercier,False,10
+2851,NC,Mt. Holly,,10
+2852,QC,Beauharnois,False,10
+2853,,Missisauga,True,10
+2854,ON,Malton,False,10
+2855,PA,Sturgeon,,10
+2856,,Rillton,False,10
+2857,,Auburn Twp,,10
+2858,,Beauharnois,False,10
+2859,OH,Wadsworth,True,10
+2860,QC,Mercier,False,10
+2861,ON,Malton,,10
+2862,ON,Bradford West Gwillimbury,True,10
+2863,PA,Rillton,False,10
+2864,,Bradford West Gwillimbury,True,10
+2865,FL,,,10
+2866,NC,Mt. Holly,False,10
+2867,,Sturgeon,,10
+2868,,Auburn Twp,False,10
+2869,AZ,Laveen,True,10
+2870,,Canonsburd,,10
+2871,PA,Sturgeon,False,10
+2872,ON,Missisauga,True,10
+2873,,Wadsworth,True,10
+2874,PA,Rillton,,10
+2875,,Rillton,,10
+2876,,Mt. Holly,False,10
+2877,,Fisher,,9
+2878,,verdun,,9
+2879,,Tolono,,9
+2880,VA,Moseley,False,9
+2881,IL,Fisher,,9
+2882,ON,Oak Ridges,,9
+2883,OH,Oakwood Village,,9
+2884,PA,Pitcairn,False,9
+2885,QC,Vaudreuil-Dorion,True,9
+2886,PA,Harwick,,9
+2887,,Napierville,,9
+2888,IL,Tolono,False,9
+2889,,Warrensville Heights,True,9
+2890,QC,Hampstead,,9
+2891,OH,Willoughby Hills,True,9
+2892,,Oak Ridges,,9
+2893,QC,Napierville,False,9
+2894,VA,,,9
+2895,,verdun,False,9
+2896,,Oakwood Village,,9
+2897,,Napierville,False,9
+2898,,Sainte-Thérèse-de-Blainville,False,9
+2899,,Baie-d'Urfe,False,9
+2900,ON,Oak Ridges,False,9
+2901,PA,North Huntingdon,True,9
+2902,,Pitcairn,,9
+2903,,Salaberry-de-Valleyfield,,9
+2904,QC,verdun,False,9
+2905,QC,Bois-des-Filion,False,9
+2906,PA,Pitcairn,,9
+2907,OH,Oakwood Village,False,9
+2908,NV,Blue Diamond,True,9
+2909,,Denver,True,9
+2910,,Harwick,False,9
+2911,OH,Gates Mills,True,9
+2912,,Gates Mills,True,9
+2913,QC,Napierville,,9
+2914,,Pitcairn,False,9
+2915,QC,Bois-des-Filion,,9
+2916,,Sainte-Thérèse-de-Blainville,,9
+2917,,Moseley,False,9
+2918,,Blue Diamond,True,9
+2919,PA,Irwin,True,9
+2920,,Fisher,False,9
+2921,QC,Salaberry-de-Valleyfield,False,9
+2922,OH,Toronto,False,9
+2923,,Oakwood Village,False,9
+2924,,Tolono,False,9
+2925,,Hampstead,False,9
+2926,PA,Harwick,False,9
+2927,QC,verdun,,9
+2928,NC,Denver,True,9
+2929,OH,Chardon,True,9
+2930,,Bois-des-Filion,False,9
+2931,,Bois-des-Filion,,9
+2932,IL,Tolono,,9
+2933,IL,Fisher,False,9
+2934,QC,Sainte-Thérèse-de-Blainville,False,9
+2935,VA,Moseley,,9
+2936,,Salaberry-de-Valleyfield,False,9
+2937,,Willoughby Hills,True,9
+2938,WI,Mount Horeb,True,9
+2939,,Irwin,True,9
+2940,,Moseley,,9
+2941,QC,Baie-d'Urfe,False,9
+2942,OH,Toronto,,9
+2943,,Vaudreuil-Dorion,True,9
+2944,,Oak Ridges,False,9
+2945,,Hampstead,,9
+2946,,Chardon,True,9
+2947,VA,,False,9
+2948,QC,Hampstead,False,9
+2949,OH,Warrensville Heights,True,9
+2950,,North Huntingdon,True,9
+2951,,Mount Horeb,True,9
+2952,QC,Sainte-Thérèse-de-Blainville,,9
+2953,,Harwick,,9
+2954,QC,Salaberry-de-Valleyfield,,9
+2955,XWY,Leeds,,8
+2956,NY,Mooers,False,8
+2957,,Concord Township,,8
+2958,,Mount Lebanon,True,8
+2959,XWY,,,8
+2960,XWY,Leeds,False,8
+2961,,Regent Square,,8
+2962,PA,Mckeesport,,8
+2963,QC,Ormstown,,8
+2964,QC,Val-Morin,False,8
+2965,,Lake Park,,8
+2966,QC,Longueuil,True,8
+2967,,Richmond Hts,,8
+2968,,Peninsula,True,8
+2969,IL,Savoy,True,8
+2970,,Ormstown,False,8
+2971,,ETOBICOKE,,8
+2972,AB,Sainte-Adèle,,8
+2973,,Lake Park,False,8
+2974,,Rawdon,False,8
+2975,PA,Regent Square,,8
+2976,OH,Bay Village,True,8
+2977,QC,Montréal-West,False,8
+2978,,Dallas,True,8
+2979,,Leeds,,8
+2980,XWY,,False,8
+2981,NY,Mooers,,8
+2982,AB,Alberta,,8
+2983,OH,Peninsula,True,8
+2984,NC,Wesley Chapel,True,8
+2985,SC,Lake Wylie,True,8
+2986,,Leeds,False,8
+2987,,King City,True,8
+2988,,Montéal,,8
+2989,QC,Rawdon,,8
+2990,OH,Concord Township,,8
+2991,,Mooers,False,8
+2992,,Val-Morin,,8
+2993,,Mayfield Village,True,8
+2994,,Wesley Chapel,True,8
+2995,PA,Mckeesport,False,8
+2996,,Mooers,,8
+2997,,Bay Village,True,8
+2998,OH,Concord Township,False,8
+2999,,Montéal,False,8
+3000,PA,springdale,,8
+3001,ON,King City,True,8
+3002,QC,Montéal,,8
+3003,,Savoy,True,8
+3004,,Alberta,False,8
+3005,ON,Whtiby,False,8
+3006,ON,ETOBICOKE,,8
+3007,,Mckeesport,,8
+3008,TX,,True,8
+3009,,solon,,8
+3010,,Omaha,,8
+3011,QC,Rawdon,False,8
+3012,TX,Dallas,True,8
+3013,WI,McFarland,True,8
+3014,,Alberta,,8
+3015,,Longueuil,True,8
+3016,,McFarland,True,8
+3017,,Val-Morin,False,8
+3018,OH,Richmond Hts,False,8
+3019,QC,Montéal,False,8
+3020,,Mckeesport,False,8
+3021,,Montréal-West,,8
+3022,NE,Omaha,False,8
+3023,,Omaha,False,8
+3024,AB,Alberta,False,8
+3025,,Concord Township,False,8
+3026,,Rawdon,,8
+3027,QC,Ormstown,False,8
+3028,OH,Mayfield Village,True,8
+3029,,Montréal-West,False,8
+3030,QC,Val-Morin,,8
+3031,NE,,False,8
+3032,ON,Whtiby,,8
+3033,,springdale,,8
+3034,NE,,,8
+3035,NC,Lake Park,,8
+3036,,Ormstown,,8
+3037,NE,Omaha,,8
+3038,,ETOBICOKE,False,8
+3039,,Richmond Hts,False,8
+3040,ON,ETOBICOKE,False,8
+3041,,Whtiby,False,8
+3042,,Whtiby,,8
+3043,QC,Montréal-West,,8
+3044,PA,Mount Lebanon,True,8
+3045,OH,solon,,8
+3046,NC,Lake Park,False,8
+3047,,Lake Wylie,True,8
+3048,OH,Richmond Hts,,8
+3049,,Lancaster,False,7
+3050,,Spring Hill City View,False,7
+3051,AB,Sainte-Adèle,False,7
+3052,,Holland Landing,False,7
+3053,QC,Montreal-Ouest,,7
+3054,PA,Ambridge,True,7
+3055,SC,Clover,True,7
+3056,,Mount Oliver,,7
+3057,ON,AGINCOURT,False,7
+3058,,Holland Landing,,7
+3059,,Spartanburg,,7
+3060,,Cuyahoga Fls,,7
+3061,AR,,,7
+3062,,Edgewood,False,7
+3063,SC,Spartanburg,False,7
+3064,,Saint-Charles-Borromee,,7
+3065,NC,Mattews,,7
+3066,,Ross,,7
+3067,AZ,Queen Creek,True,7
+3068,,Lancaster,,7
+3069,,Montreal-Ouest,,7
+3070,PA,Mount Oliver,,7
+3071,QC,Hemmingford,,7
+3072,QC,Saintt-Bruno-de-Montarville,,7
+3073,,Westmount,True,7
+3074,,Waunakee,True,7
+3075,SC,Lancaster,,7
+3076,,Buena Vista,,7
+3077,,Regent Square,False,7
+3078,QC,Westmount,True,7
+3079,,Montreal-Ouest,False,7
+3080,,Saintt-Bruno-de-Montarville,False,7
+3081,QC,Hemmingford,False,7
+3082,,Hemmingford,False,7
+3083,QC,Prévost,,7
+3084,,AGINCOURT,False,7
+3085,,Ross,False,7
+3086,QC,Montreal-Ouest,False,7
+3087,,Prévost,,7
+3088,PA,Buena Vista,,7
+3089,,Villa Grove,False,7
+3090,ON,AGINCOURT,,7
+3091,,Hemmingford,,7
+3092,,Clover,True,7
+3093,,Bedford Hts.,False,7
+3094,PA,Edgewood,False,7
+3095,QC,Saintt-Bruno-de-Montarville,False,7
+3096,NC,Mattews,False,7
+3097,OH,Cuyahoga Fls,False,7
+3098,OH,Cuyahoga Fls,,7
+3099,,Hiram,,7
+3100,ON,Holland Landing,False,7
+3101,PA,Edgewood,,7
+3102,AR,Monticello,,7
+3103,QC,Saint-Charles-Borromee,,7
+3104,PA,Spring Hill City View,,7
+3105,PA,Buena Vista,False,7
+3106,PA,Ross,,7
+3107,,Saintt-Bruno-de-Montarville,,7
+3108,AR,,False,7
+3109,PA,Mount Oliver,False,7
+3110,AR,Monticello,False,7
+3111,,Queen Creek,True,7
+3112,SC,Lancaster,False,7
+3113,QC,Saint-Charles-Borromee,False,7
+3114,,Hiram,False,7
+3115,QC,Bedford,False,7
+3116,OH,Bedford Hts.,,7
+3117,,Mattews,,7
+3118,,Spring Hill City View,,7
+3119,WI,Waunakee,True,7
+3120,PA,Arnold,True,7
+3121,,Saint-Charles-Borromee,False,7
+3122,,Edgewood,,7
+3123,,Mount Oliver,False,7
+3124,,Spartanburg,False,7
+3125,ON,Holland Landing,,7
+3126,OH,Bedford Hts.,False,7
+3127,OH,Hiram,,7
+3128,,Mattews,False,7
+3129,PA,Regent Square,False,7
+3130,SC,Spartanburg,,7
+3131,IL,Villa Grove,,7
+3132,,Villa Grove,,7
+3133,,Ambridge,True,7
+3134,PA,Spring Hill City View,False,7
+3135,,Arnold,True,7
+3136,PA,West View,True,7
+3137,,West View,True,7
+3138,PA,Ross,False,7
+3139,,Cuyahoga Fls,False,7
+3140,,Buena Vista,False,7
+3141,OH,Hiram,False,7
+3142,,Bedford Hts.,,7
+3143,QC,Bedford,,7
+3144,IL,Villa Grove,False,7
+3145,,AGINCOURT,,7
+3146,,Sunrise Manor,,6
+3147,OH,Sheffield Village,True,6
+3148,,springdale,False,6
+3149,QC,Sainte-Therese,False,6
+3150,,Dollard-des Ormeaux,True,6
+3151,QC,Huntingdon,,6
+3152,PA,West Elizabeth,,6
+3153,QC,Charlemagne,False,6
+3154,QC,Dollard-des Ormeaux,True,6
+3155,QC,Chatauguay,,6
+3156,NV,Sunrise Manor,,6
+3157,PA,Clairton,True,6
+3158,,Sheffield Village,True,6
+3159,,Huntingdon,False,6
+3160,OH,solon,False,6
+3161,,West Elizabeth,False,6
+3162,,Woodmere Village,True,6
+3163,,Sainte-Therese,False,6
+3164,,Huntingdon,,6
+3165,,Clairton,True,6
+3166,,Rantoul,True,6
+3167,,Lachenaie,,6
+3168,QC,Lachenaie,,6
+3169,,Saint-Jean-Sur-Richelieu,False,6
+3170,IL,Monticello,True,6
+3171,,University Heights,True,6
+3172,QC,Saint-Jean-Sur-Richelieu,False,6
+3173,,Ross Township,True,6
+3174,,Lindale,False,6
+3175,OH,Woodmere Village,True,6
+3176,AZ,Laveen Village,True,6
+3177,OH,LaGrange,,6
+3178,PA,Pleasant Hills,True,6
+3179,OH,Lindale,,6
+3180,PA,Mc Kees Rocks,True,6
+3181,,Charlemagne,False,6
+3182,,West Elizabeth,,6
+3183,,Mc Kees Rocks,True,6
+3184,QC,Charlemagne,,6
+3185,,Charlemagne,,6
+3186,,THORNHILL,,6
+3187,,Chatauguay,,6
+3188,,Lachenaie,False,6
+3189,,Pleasant Hills,True,6
+3190,PA,West Elizabeth,False,6
+3191,QC,Huntingdon,False,6
+3192,ON,THORNHILL,False,6
+3193,QC,Saint-Jean-Sur-Richelieu,,6
+3194,,Saint-Jean-Sur-Richelieu,,6
+3195,QC,Prévost,False,6
+3196,,LaGrange,False,6
+3197,OH,LaGrange,False,6
+3198,IL,Rantoul,True,6
+3199,,LaGrange,,6
+3200,,Monticello,True,6
+3201,,Sainte-Therese,,6
+3202,OH,University Heights,True,6
+3203,OH,Lindale,False,6
+3204,,Prévost,False,6
+3205,,Chatauguay,False,6
+3206,ON,THORNHILL,,6
+3207,QC,Sainte-Therese,,6
+3208,PA,springdale,False,6
+3209,PA,Ross Township,True,6
+3210,QC,Chatauguay,False,6
+3211,,Lindale,,6
+3212,,Laveen Village,True,6
+3213,,THORNHILL,False,6
+3214,QC,Lachenaie,False,6
+3215,,solon,False,6
+3216,QC,Beaconsfield,True,5
+3217,,Penn Hills,True,5
+3218,ON,Streetsville,False,5
+3219,,Oka,,5
+3220,,South Las Vegas,True,5
+3221,,Oka,False,5
+3222,,Saint-Léonard,True,5
+3223,,Caledon Village,False,5
+3224,,Agincourt,False,5
+3225,ON,Toronto Scarborough,False,5
+3226,,Cote Saint-Luc,,5
+3227,,Crescent,,5
+3228,,Caledon Village,,5
+3229,OH,Tremont,True,5
+3230,PA,Penn Hills,True,5
+3231,ON,Centre Island,False,5
+3232,,Toronto Scarborough,False,5
+3233,,Chertsey,,5
+3234,,L'assomption,,5
+3235,ON,Agincourt,False,5
+3236,,Sainte-Marthe,,5
+3237,ON,Streetsville,,5
+3238,,Saint-Basile-Le-Grand,,5
+3239,,De l'Eglise,,5
+3240,ON,Toronto Scarborough,,5
+3241,QC,Saint-Léonard,True,5
+3242,IL,Tuscola,True,5
+3243,,Cote Saint-Luc,False,5
+3244,OH,Bainbridge,True,5
+3245,QC,Chertsey,False,5
+3246,QC,Mont-Royal,True,5
+3247,,Sunrise Manor,False,5
+3248,ON,Caledon Village,False,5
+3249,VT,,False,5
+3250,NV,Enterprise,True,5
+3251,,Alburg,False,5
+3252,ON,Centre Island,,5
+3253,,Streetsville,,5
+3254,,Crescent,False,5
+3255,NV,Sunrise Manor,False,5
+3256,,Île-des-Soeurs,,5
+3257,,Toronto Scarborough,,5
+3258,,De l'Eglise,False,5
+3259,,Bainbridge,True,5
+3260,,Enterprise,True,5
+3261,ON,Caledon Village,,5
+3262,QC,Cote Saint-Luc,,5
+3263,QC,Sainte-Marthe,False,5
+3264,,Île-des-Soeurs,False,5
+3265,QC,Oka,False,5
+3266,QC,Oka,,5
+3267,VT,Alburg,,5
+3268,QC,De l'Eglise,False,5
+3269,AB,North York,,5
+3270,VT,,,5
+3271,,Moreland Hills,True,5
+3272,ON,Agincourt,,5
+3273,QC,Saint-Basile-Le-Grand,False,5
+3274,,Tremont,True,5
+3275,,Brecksville,True,5
+3276,,Noyan,False,5
+3277,,Alburg,,5
+3278,,Centre Island,,5
+3279,VT,Alburg,False,5
+3280,,Tuscola,True,5
+3281,,Bolton,True,5
+3282,QC,De l'Eglise,,5
+3283,,Beaconsfield,True,5
+3284,QC,Saint-Basile-Le-Grand,,5
+3285,,Noyan,,5
+3286,OH,Brecksville,True,5
+3287,QC,Chertsey,,5
+3288,,Agincourt,,5
+3289,QC,Noyan,False,5
+3290,QC,Noyan,,5
+3291,OH,Moreland Hills,True,5
+3292,PA,Crescent,False,5
+3293,,Saint-Basile-Le-Grand,False,5
+3294,NV,South Las Vegas,True,5
+3295,,Mont-Royal,True,5
+3296,,Centre Island,False,5
+3297,,L'assomption,False,5
+3298,ON,Bolton,True,5
+3299,QC,L'assomption,,5
+3300,,Streetsville,False,5
+3301,QC,L'assomption,False,5
+3302,QC,Île-des-Soeurs,,5
+3303,AB,North York,False,5
+3304,QC,Cote Saint-Luc,False,5
+3305,PA,Crescent,,5
+3306,,Sainte-Marthe,False,5
+3307,QC,Île-des-Soeurs,False,5
+3308,,Chertsey,False,5
+3309,QC,Sainte-Marthe,,5
+3310,QC,Sainte-Madeleine,,4
+3311,,Saint Leonard,False,4
+3312,QC,St-Laurent,,4
+3313,,Sainte-Madeleine,False,4
+3314,ON,Oakridges,,4
+3315,QC,Coteau-du-Lac,,4
+3316,OH,Mentor On the,,4
+3317,,Baie-d'Urfé,False,4
+3318,QC,Saint-Hippolyte,,4
+3319,OH,Munroe Falls,True,4
+3320,,Newbury,True,4
+3321,,Cuyahoga Heights,,4
+3322,,Oakridges,False,4
+3323,QC,Iberville,,4
+3324,,Bloomfield,,4
+3325,,Hampton Township,True,4
+3326,ON,Oakridges,False,4
+3327,,Côte-Saint-Luc,,4
+3328,,Paw Creek,,4
+3329,QC,Varennes,,4
+3330,QC,Saint-Sauveur,True,4
+3331,,Garfield Hts,,4
+3332,OH,Newbury,True,4
+3333,,Côte-Saint-Luc,False,4
+3334,QC,Cote-Saint-Luc,,4
+3335,,Division No. 6,,4
+3336,WI,Cross Plains,True,4
+3337,,L'Assomption,False,4
+3338,,Sainte-Marguerite-du-lac-Masson,,4
+3339,OH,Garfield Hts,,4
+3340,,Palgrave,False,4
+3341,,Penn Hills Township,,4
+3342,OH,Burton,True,4
+3343,PA,Penn Hills Township,False,4
+3344,QC,Saint-Hippolyte,False,4
+3345,,Sainte-Madeleine,,4
+3346,QC,Vaudreuil,False,4
+3347,,Port Credit,True,4
+3348,PA,North Versailles,True,4
+3349,OH,Concord Twp,,4
+3350,,south Euclid,,4
+3351,,Sutersville,,4
+3352,QC,Terrebonne,True,4
+3353,PA,Wilkens Township,,4
+3354,,Sainte-Marguerite-du-Lac-Masson,False,4
+3355,,south Euclid,False,4
+3356,,St-Laurent,,4
+3357,,Saint-Sauveur-des-Monts,,4
+3358,,Phoenix Valley,,4
+3359,,New Tecumseth,False,4
+3360,PA,Hampton Township,True,4
+3361,,Saint-Lazare,True,4
+3362,,Paw Creek,False,4
+3363,,Braddock,True,4
+3364,NC,Lowell,True,4
+3365,,Piedmont,,4
+3366,,Concord Twp,,4
+3367,,McKeesport,True,4
+3368,,Coteau-du-Lac,False,4
+3369,NC,Locust,True,4
+3370,PA,Bloomfield,False,4
+3371,QC,Coteau-du-Lac,False,4
+3372,,Monterey Park,False,4
+3373,,Saint-Sauveur,True,4
+3374,,Bloomfield,False,4
+3375,,Saint-Hippolyte,,4
+3376,,Oakmont,True,4
+3377,QC,Sainte-Dorothée,,4
+3378,QC,Sainte-Madeleine,False,4
+3379,,Palgrave,,4
+3380,AB,Division No. 6,False,4
+3381,,Cross Plains,True,4
+3382,,Mentor On the,,4
+3383,AZ,Phoenix Valley,False,4
+3384,,North Versailles,True,4
+3385,,Sainte-Marguerite-du-Lac-Masson,,4
+3386,QC,Baie-d'Urfé,False,4
+3387,CA,,,4
+3388,OH,Perry,,4
+3389,QC,Saint-Sauveur-des-Monts,,4
+3390,QC,Saint-Jérôme,True,4
+3391,,Sainte-Marguerite-du-lac-Masson,False,4
+3392,OH,Mentor On the,False,4
+3393,,Cote-Saint-Luc,,4
+3394,QC,Sainte-Marguerite-du-lac-Masson,False,4
+3395,QC,Piedmont,,4
+3396,QC,St-Laurent,False,4
+3397,QC,Pointe-Calumet,False,4
+3398,PA,Braddock,True,4
+3399,PA,Sutersville,,4
+3400,PA,McKeesport,True,4
+3401,,Venise-en-Québec,,4
+3402,,Varennes,,4
+3403,ON,Palgrave,False,4
+3404,,Sutersville,False,4
+3405,QC,Baie-d'Urfé,,4
+3406,,Saint-Pierre-de-Véronne-à-Pike-River,,4
+3407,,New Tecumseth,,4
+3408,,Burton,True,4
+3409,,Pointe-Calumet,False,4
+3410,QC,Venise-en-Québec,False,4
+3411,QC,Saint-Sauveur-des-Monts,False,4
+3412,OH,Painesville Township,,4
+3413,,Phoenix Valley,False,4
+3414,PA,Penn Hills Township,,4
+3415,QC,Côte-Saint-Luc,False,4
+3416,QC,Saint-Lazare,True,4
+3417,,Saint Leonard,,4
+3418,QC,Piedmont,False,4
+3419,,Pointe-Calumet,,4
+3420,QC,Sainte-Marguerite-Esterel,False,4
+3421,,Vaudreuil,False,4
+3422,,Venise-en-Québec,False,4
+3423,,Sainte-Dorothée,False,4
+3424,PA,Bloomfield,,4
+3425,QC,Sainte-Dorothée,False,4
+3426,CA,,False,4
+3427,QC,Côte-Saint-Luc,,4
+3428,QC,Saint Leonard,False,4
+3429,OH,Painesville Township,False,4
+3430,PA,Tarentum,True,4
+3431,,L'Assomption,,4
+3432,QC,Saint-Pierre-de-Véronne-à-Pike-River,False,4
+3433,WI,Sauk City,True,4
+3434,,Vaudreuil,,4
+3435,QC,Lasalle,True,4
+3436,,Painesville Township,,4
+3437,,Sauk City,True,4
+3438,,Terrebonne,True,4
+3439,CA,Monterey Park,False,4
+3440,,Oakridges,,4
+3441,,Cote-Saint-Luc,False,4
+3442,,Munroe Falls,True,4
+3443,,Monterey Park,,4
+3444,QC,L'Assomption,,4
+3445,QC,Saint-Pierre-de-Véronne-à-Pike-River,,4
+3446,OH,south Euclid,,4
+3447,,Lowell,True,4
+3448,,De Winton,False,4
+3449,,Saint-Sauveur-des-Monts,False,4
+3450,AB,De Winton,False,4
+3451,QC,Saint Leonard,,4
+3452,,Brookpark,True,4
+3453,,Paradise,True,4
+3454,QC,Varennes,False,4
+3455,,Locust,True,4
+3456,ON,New Tecumseth,,4
+3457,PA,Wilkens Township,False,4
+3458,QC,Sainte-Marguerite-du-lac-Masson,,4
+3459,QC,L'Assomption,False,4
+3460,ON,New Tecumseth,False,4
+3461,NC,Paw Creek,False,4
+3462,,Coteau-du-Lac,,4
+3463,QC,Iberville,False,4
+3464,CA,Monterey Park,,4
+3465,,Division No. 6,False,4
+3466,PA,Sutersville,False,4
+3467,,Saint-Jérôme,True,4
+3468,,De Winton,,4
+3469,,Sainte-Adèle,True,4
+3470,,Wilkens Township,False,4
+3471,,Saint-Hippolyte,False,4
+3472,,Perry,False,4
+3473,QC,Venise-en-Québec,,4
+3474,,St-Laurent,False,4
+3475,,Sainte-Dorothée,,4
+3476,OH,Brookpark,True,4
+3477,,Lasalle,True,4
+3478,QC,Sainte-Marguerite-Esterel,,4
+3479,,Garfield Hts,False,4
+3480,,Valley View,True,4
+3481,,Sainte-Marguerite-Esterel,False,4
+3482,,Concord Twp,False,4
+3483,,Wilkens Township,,4
+3484,,Iberville,,4
+3485,AZ,Phoenix Valley,,4
+3486,OH,Valley View,True,4
+3487,,Saint-Pierre-de-Véronne-à-Pike-River,False,4
+3488,,Varennes,False,4
+3489,ON,Port Credit,True,4
+3490,QC,Cote-Saint-Luc,False,4
+3491,QC,Pointe-Calumet,,4
+3492,NV,Paradise,True,4
+3493,,Cuyahoga Heights,False,4
+3494,OH,south Euclid,False,4
+3495,,Tarentum,True,4
+3496,QC,Sainte-Marguerite-du-Lac-Masson,,4
+3497,,Sainte-Marguerite-Esterel,,4
+3498,OH,Perry,False,4
+3499,,Penn Hills Township,False,4
+3500,AB,Division No. 6,,4
+3501,,Piedmont,False,4
+3502,ON,Palgrave,,4
+3503,,Mentor On the,False,4
+3504,PA,Oakmont,True,4
+3505,OH,Concord Twp,False,4
+3506,,Perry,,4
+3507,NC,Paw Creek,,4
+3508,,Iberville,False,4
+3509,OH,Cuyahoga Heights,False,4
+3510,QC,Sainte-Marguerite-du-Lac-Masson,False,4
+3511,OH,Cuyahoga Heights,,4
+3512,QC,Vaudreuil,,4
+3513,AB,De Winton,,4
+3514,,Painesville Township,False,4
+3515,,Baie-d'Urfé,,4
+3516,OH,Garfield Hts,False,4
+3517,QC,Saint-laurent,False,3
+3518,PA,North Braddock,,3
+3519,,Midway,,3
+3520,,Clark,False,3
+3521,,Pointe-aux-Trembles,False,3
+3522,,Sainte-Rose,False,3
+3523,,Lacolle,,3
+3524,,Bond Head,,3
+3525,AL,Calgary,,3
+3526,IL,Sidney,False,3
+3527,QC,Ste-Dorothée,,3
+3528,OH,Mentor-on-the-Lake,True,3
+3529,,Les Cèdres,False,3
+3530,QC,Lavaltrie,,3
+3531,QC,McMasterville,False,3
+3532,QC,Rosemere,True,3
+3533,QC,Maple Grove,False,3
+3534,,Sainte-Rose,,3
+3535,QC,Belœil,False,3
+3536,QC,Brownsburg-Chatham,False,3
+3537,,Oldham,,3
+3538,,Les Cèdres,,3
+3539,,Catawba Springs,,3
+3540,NV,Clark,,3
+3541,NC,Catawba Springs,False,3
+3542,,St-Jean-sur-Richelieu,False,3
+3543,QC,Lavaltrie,False,3
+3544,,Wilkinsburg,True,3
+3545,QC,Saint-laurent,,3
+3546,,Sun Praiie,False,3
+3547,QC,"Chomedey, Laval",,3
+3548,,Northfield Center Township,False,3
+3549,PA,Midway,,3
+3550,,Oakland,True,3
+3551,,Ange-Gardien,False,3
+3552,OH,Township of Concord,,3
+3553,,Kleinburg,True,3
+3554,,Ste-Therese-de-Blainville,,3
+3555,QC,Mont St-hilaire,,3
+3556,,Montreal-Est,False,3
+3557,QC,Sainte-Anne-de-Bellevue,True,3
+3558,WA,,False,3
+3559,AZ,Somerton,,3
+3560,,Ahwatukee,True,3
+3561,,Sharpsburg,True,3
+3562,,Blainville,True,3
+3563,ON,Halton Hills,True,3
+3564,IL,Mansfield,,3
+3565,,Sainte-thérèse,False,3
+3566,,Robinson Twp.,True,3
+3567,,Summerlin South,,3
+3568,QC,Roxboro,False,3
+3569,BC,,,3
+3570,QC,Montreal-Est,,3
+3571,XGM,Oldham,,3
+3572,,Deerfield,,3
+3573,WA,Canonsburg,False,3
+3574,OH,Northfield Center Township,,3
+3575,,Les Coteaux,False,3
+3576,ON,Kleinburg,True,3
+3577,,Old Port of Montreal,False,3
+3578,CON,Church Cove,False,3
+3579,XGM,,,3
+3580,,Rosemere,True,3
+3581,,Oldham,False,3
+3582,QC,Dollard-Des-Ormeaux,True,3
+3583,,Deerfield,False,3
+3584,,Mont St-hilaire,False,3
+3585,XGM,Oldham,False,3
+3586,PA,North Braddock,False,3
+3587,QC,Sainte-Geneviève,,3
+3588,,"Laval, Pont Viau",,3
+3589,IL,Sidney,,3
+3590,,Richmond Height,,3
+3591,QC,Deux-Montagnes,False,3
+3592,AZ,Maricopa,False,3
+3593,QC,Sainte-Adèle,True,3
+3594,,Township of Concord,,3
+3595,AB,Medicine Hat,False,3
+3596,QC,Farnham,False,3
+3597,,St-Clet,False,3
+3598,QC,Sainte-Adele,True,3
+3599,QC,"Laval, Pont Viau",,3
+3600,,Port Vue,False,3
+3601,PA,Morgan,,3
+3602,QC,St-Jean-sur-Richelieu,False,3
+3603,WA,Canonsburg,,3
+3604,,Mayfield,True,3
+3605,,Maple Grove,,3
+3606,,Brownsburg-Chatham,,3
+3607,QC,St. Léonard,False,3
+3608,QC,Deux-Montagnes,,3
+3609,,Plum Boro,False,3
+3610,,"Chomedey, Laval",False,3
+3611,QC,Maple Grove,,3
+3612,WI,Deerfield,False,3
+3613,,Pointe-aux-Trembles,,3
+3614,QC,Ste-Therese-de-Blainville,False,3
+3615,,GILBERT,True,3
+3616,OH,Richmond Height,,3
+3617,,St-Clet,,3
+3618,,St. Léonard,False,3
+3619,,Sidney,False,3
+3620,QC,Pointe-aux-Trembles,False,3
+3621,,La Prairie,True,3
+3622,IL,Mansfield,False,3
+3623,,Sharon,,3
+3624,AB,Rocky View County,,3
+3625,ON,Sharon,False,3
+3626,QC,Saint-Basile-le-Grand,False,3
+3627,QC,Côte Saint-Luc,,3
+3628,PA,Morgan,False,3
+3629,,Sainte-Geneviève,False,3
+3630,QC,Ange-Gardien,,3
+3631,WA,,,3
+3632,WI,Deerfield,,3
+3633,QC,"Laval, Ste Dorothee",,3
+3634,,"Laval, Ste Dorothee",,3
+3635,,Midway,False,3
+3636,,Somerton,False,3
+3637,,Morgan,,3
+3638,BC,Richmond Hill,,3
+3639,QC,McMasterville,,3
+3640,ON,Beeton,True,3
+3641,,Saint-Roch-de-l'Achigan,False,3
+3642,PA,Wilkinsburg,True,3
+3643,QC,"Laval, Ste Dorothee",False,3
+3644,QC,Sainte-thérèse,False,3
+3645,PA,Midway,False,3
+3646,,Ste-Dorothée,,3
+3647,QC,Ste-Dorothée,False,3
+3648,,Sainte-Adele,True,3
+3649,,Richmond Height,False,3
+3650,,Maple Grove,False,3
+3651,AZ,Somerton,False,3
+3652,,Port Vue,,3
+3653,,Dollard-Des-Ormeaux,True,3
+3654,,Medicine Hat,False,3
+3655,,Medicine Hat,,3
+3656,PA,Aliquippa,,3
+3657,OH,Northfield Center Township,False,3
+3658,,East Pittsburgh,True,3
+3659,QC,"Chomedey, Laval",False,3
+3660,CON,,,3
+3661,AB,Medicine Hat,,3
+3662,QC,Belœil,,3
+3663,QC,Lacolle,,3
+3664,QC,Pointe-aux-Trembles,,3
+3665,,Catawba Springs,False,3
+3666,,Saint-Lambert,True,3
+3667,,Saint-Basile-le-Grand,,3
+3668,QC,Henryville,False,3
+3669,QC,St-Clet,False,3
+3670,QC,Les Coteaux,False,3
+3671,,Rocky View County,,3
+3672,,Ste-Therese-de-Blainville,False,3
+3673,,Godmanchester,False,3
+3674,NC,Catawba Springs,,3
+3675,,Les Coteaux,,3
+3676,,Sainte-thérèse,,3
+3677,AZ,GILBERT,True,3
+3678,AL,Calgary,False,3
+3679,NV,Clark,False,3
+3680,QC,Old Port of Montreal,False,3
+3681,,Old Port of Montreal,,3
+3682,,Sainte-Anne-de-Bellevue,True,3
+3683,WI,Sun Praiie,,3
+3684,PA,East Pittsburgh,True,3
+3685,QC,Sainte-Rose,,3
+3686,AZ,Ahwatukee,True,3
+3687,AL,,,3
+3688,,Rocky View County,False,3
+3689,CON,,False,3
+3690,,Deux-Montagnes,False,3
+3691,QC,Montreal-Est,False,3
+3692,,Roxboro,False,3
+3693,PA,Mt Lebanon,True,3
+3694,ON,Sharon,,3
+3695,,Bond Head,False,3
+3696,NV,Summerlin South,,3
+3697,,North Braddock,False,3
+3698,,Northfield Center Township,,3
+3699,QC,Ange-Gardien,False,3
+3700,,Belœil,False,3
+3701,OH,Township of Concord,False,3
+3702,QC,Sainte-Rose,False,3
+3703,,Montreal-Est,,3
+3704,PA,Aliquippa,False,3
+3705,,Mentor-on-the-Lake,True,3
+3706,,Southeast Calgary,False,3
+3707,OH,Maple Heights,True,3
+3708,,Henryville,,3
+3709,,Godmanchester,,3
+3710,QC,Sainte-Geneviève,False,3
+3711,PA,Sharpsburg,True,3
+3712,,Somerton,,3
+3713,QC,Henryville,,3
+3714,,Sainte-Geneviève,,3
+3715,,Moon Township,True,3
+3716,AZ,Maricopa,,3
+3717,,Township of Concord,False,3
+3718,QC,Mont St-hilaire,False,3
+3719,,McMasterville,False,3
+3720,,Sharon,False,3
+3721,QC,Saint-Lambert,True,3
+3722,,North Braddock,,3
+3723,,Roxboro,,3
+3724,QC,Les Cèdres,False,3
+3725,,"Laval, Ste Dorothee",False,3
+3726,,Church Cove,False,3
+3727,,Henryville,False,3
+3728,PA,Plum Boro,False,3
+3729,QC,Brownsburg-Chatham,,3
+3730,QC,Sainte-thérèse,,3
+3731,QC,Les Coteaux,,3
+3732,,Farnham,,3
+3733,AB,Rocky View County,False,3
+3734,,Saint-laurent,False,3
+3735,CON,Church Cove,,3
+3736,PA,Plum Boro,,3
+3737,,Mont St-hilaire,,3
+3738,,Ste-Dorothée,False,3
+3739,,LaSalle,True,3
+3740,QC,Lacolle,False,3
+3741,,McMasterville,,3
+3742,,Maple Heights,True,3
+3743,,Belœil,,3
+3744,,Mansfield,False,3
+3745,,Halton Hills,True,3
+3746,,Lacolle,False,3
+3747,,Southeast Calgary,,3
+3748,QC,Ste-Therese-de-Blainville,,3
+3749,QC,Roxboro,,3
+3750,ON,Bond Head,,3
+3751,,Morgan,False,3
+3752,,Beeton,True,3
+3753,PA,Moon Township,True,3
+3754,,Saint-Basile-le-Grand,False,3
+3755,,Deux-Montagnes,,3
+3756,,St-Jean-sur-Richelieu,,3
+3757,,Mt Lebanon,True,3
+3758,QC,Old Port of Montreal,,3
+3759,,Saint-Roch-de-l'Achigan,,3
+3760,,Maricopa,False,3
+3761,XGM,,False,3
+3762,,Maricopa,,3
+3763,,Sidney,,3
+3764,,Lavaltrie,False,3
+3765,QC,Godmanchester,False,3
+3766,QC,Saint-Roch-de-l'Achigan,,3
+3767,QC,LaSalle,True,3
+3768,,Sun Praiie,,3
+3769,QC,Godmanchester,,3
+3770,QC,St-Clet,,3
+3771,,Church Cove,,3
+3772,NV,Summerlin South,False,3
+3773,AL,,False,3
+3774,OH,Richmond Height,False,3
+3775,,Plum Boro,,3
+3776,PA,Robinson Twp.,True,3
+3777,OH,Mayfield,True,3
+3778,,Summerlin South,False,3
+3779,QC,La Prairie,True,3
+3780,WI,Sun Praiie,False,3
+3781,,Aliquippa,,3
+3782,,St. Léonard,,3
+3783,QC,Saint-Basile-le-Grand,,3
+3784,,Mansfield,,3
+3785,QC,St. Léonard,,3
+3786,,"Chomedey, Laval",,3
+3787,QC,Blainville,True,3
+3788,,Brownsburg-Chatham,False,3
+3789,PA,Port Vue,False,3
+3790,QC,Farnham,,3
+3791,,Côte Saint-Luc,,3
+3792,,Aliquippa,False,3
+3793,QC,Saint-Roch-de-l'Achigan,False,3
+3794,PA,Port Vue,,3
+3795,,Farnham,False,3
+3796,ON,Bond Head,False,3
+3797,BC,Richmond Hill,False,3
+3798,,Clark,,3
+3799,,Ange-Gardien,,3
+3800,PA,Oakland,True,3
+3801,QC,Les Cèdres,,3
+3802,,Lavaltrie,,3
+3803,QC,St-Jean-sur-Richelieu,,3
+3804,AB,Southeast Calgary,False,3
+3805,AB,Southeast Calgary,,3
+3806,BC,,False,3
+3807,,Saint-laurent,,3
+3808,QC,Anjou,True,2
+3809,,Blawnox,True,2
+3810,ON,Caledon,True,2
+3811,AZ,Sun City West,True,2
+3812,QC,Kirkland,True,2
+3813,,Côte Saint-Luc,False,2
+3814,,Saint Laurent,True,2
+3815,WI,Windsor,True,2
+3816,,Elizabeth,True,2
+3817,PA,Aspinwall,True,2
+3818,NY,,True,2
+3819,,Windsor,True,2
+3820,AB,Rocky View,True,2
+3821,,solon,True,2
+3822,,Saint-Hubert,True,2
+3823,QC,Rigaud,True,2
+3824,,Cheswick,True,2
+3825,,Ranlo,True,2
+3826,,Trafford,True,2
+3827,QC,"Laval, Pont Viau",False,2
+3828,,Youngtown,True,2
+3829,,Rouses Point,True,2
+3830,QC,Saint-Eustache,True,2
+3831,,Harrison City,True,2
+3832,PA,Elizabeth,True,2
+3833,PA,Lower burrell,True,2
+3834,,Avalon,True,2
+3835,OH,Northfield Center,True,2
+3836,PA,Upper Saint Clair,True,2
+3837,,Robinson Township,True,2
+3838,PA,Presto,True,2
+3839,OH,solon,True,2
+3840,PA,Blawnox,True,2
+3841,,Northfield Center,True,2
+3842,,Aspinwall,True,2
+3843,PA,Mt. Lebanon,True,2
+3844,OH,Richfield,True,2
+3845,,Ravenna,True,2
+3846,IL,Saint Joseph,True,2
+3847,,kirtland,True,2
+3848,PA,springdale,True,2
+3849,,Upper Saint Clair,True,2
+3850,OH,Ravenna,True,2
+3851,,L'Île-Perrot,True,2
+3852,,Kirtland,True,2
+3853,,Rocky View,True,2
+3854,PA,Robinson Township,True,2
+3855,PA,Harmarville,True,2
+3856,NY,Rouses Point,True,2
+3857,PA,Harrison City,True,2
+3858,,Presto,True,2
+3859,,Harmarville,True,2
+3860,,Richfield,True,2
+3861,QC,Saint-Hubert,True,2
+3862,,Saint-Eustache,True,2
+3863,OH,Kirtland,True,2
+3864,QC,Mascouche,True,2
+3865,,"Laval, Pont Viau",False,2
+3866,NC,Ranlo,True,2
+3867,,Rigaud,True,2
+3868,,springdale,True,2
+3869,PA,Trafford,True,2
+3870,,Kirkland,True,2
+3871,,Caledon,True,2
+3872,AZ,Youngtown,True,2
+3873,PA,Cheswick,True,2
+3874,,Saint Joseph,True,2
+3875,NC,Cramerton,True,2
+3876,,Anjou,True,2
+3877,QC,Saint Laurent,True,2
+3878,,Sun City West,True,2
+3879,PA,Avalon,True,2
+3880,OH,kirtland,True,2
+3881,,Mt. Lebanon,True,2
+3882,QC,L'Île-Perrot,True,2
+3883,,Lower burrell,True,2
+3884,QC,Côte Saint-Luc,False,2
+3885,,Cramerton,True,2
+3886,,Mascouche,True,2
+3887,,Châteauguay,True,1
+3888,,Grafton,True,1
+3889,,Scottdale,True,1
+3890,,Mont-Saint-Grégoire,True,1
+3891,ON,Etibicoke,True,1
+3892,PA,Heidelberg,True,1
+3893,,St-Jerome,True,1
+3894,QC,"Laval, Pont Viau",True,1
+3895,,Medina Township,True,1
+3896,ON,Clarkson,True,1
+3897,NC,Midland,True,1
+3898,AZ,Apache Junction,True,1
+3899,OH,Copley,True,1
+3900,,St Leonard,True,1
+3901,PA,South Park,True,1
+3902,,East Gwillimbury,True,1
+3903,,South Park,True,1
+3904,,Westport,True,1
+3905,QC,Greenfield Park,True,1
+3906,,Etibicoke,True,1
+3907,,Clarkson,True,1
+3908,,Belleville,True,1
+3909,,Mint  Hill,True,1
+3910,,Fairport Harbor,True,1
+3911,AB,Rocky View No. 44,True,1
+3912,OH,Bath,True,1
+3913,OH,Orange,True,1
+3914,,Prévost,True,1
+3915,QC,Rosemère,True,1
+3916,PA,Indianola,True,1
+3917,,Kennedy Township,True,1
+3918,,Baldwin,True,1
+3919,OH,Grafton,True,1
+3920,,Norton,True,1
+3921,PA,Allentown,True,1
+3922,,Montréal-Nord,True,1
+3923,PA,Upper St Clair,True,1
+3924,AZ,Glendale Az,True,1
+3925,,Mirabel,True,1
+3926,,Glendale Az,True,1
+3927,,Rocky View No. 44,True,1
+3928,,Côte Saint-Luc,True,1
+3929,,Blakeney,True,1
+3930,NC,Mint  Hill,True,1
+3931,AZ,Phx,True,1
+3932,,Greenfield Park,True,1
+3933,PA,Squirrel Hill,True,1
+3934,QC,Châteauguay,True,1
+3935,NC,Westport,True,1
+3936,,South Park Township,True,1
+3937,WI,De Forest,True,1
+3938,,Lower Burrell,True,1
+3939,QC,St-Leonard,True,1
+3940,QC,Chambly,True,1
+3941,OH,East Cleveland,True,1
+3942,,Bath,True,1
+3943,PA,Baldwin,True,1
+3944,,Allentown,True,1
+3945,,Stanley,True,1
+3946,ON,Uxbridge,True,1
+3947,,La Salle,True,1
+3948,,Mont-Saint-Hilaire,True,1
+3949,PA,Glassport,True,1
+3950,,Thornhil,True,1
+3951,,Jefferson Hills,True,1
+3952,,Mckees Rocks,True,1
+3953,OH,Sagamore Hills,True,1
+3954,AB,Midnapore,True,1
+3955,QC,Pointe-Aux-Trembles,True,1
+3956,OH,Garfield Heights,True,1
+3957,,Midnapore,True,1
+3958,PA,Turtle Creek,True,1
+3959,,Phx,True,1
+3960,OH,Medina Township,True,1
+3961,,De Forest,True,1
+3962,,Uxbridge,True,1
+3963,PA,Regent Square,True,1
+3964,QC,St-Benoît de Mirabel,True,1
+3965,QC,Saint-Henri,True,1
+3966,PA,Plum,True,1
+3967,,Delson,True,1
+3968,,Chambly,True,1
+3969,PA,Lower Burrell,True,1
+3970,PA,Shaler Township,True,1
+3971,,St-Benoît de Mirabel,True,1
+3972,PA,Jefferson Hills,True,1
+3973,,Downtown,True,1
+3974,,Glen Williams,True,1
+3975,PA,Lower Lawrenceville,True,1
+3976,OH,Norton,True,1
+3977,,"Laval, Pont Viau",True,1
+3978,,Cottage Grove,True,1
+3979,WI,Belleville,True,1
+3980,,Apache Junction,True,1
+3981,QC,La Salle,True,1
+3982,,Brookline,True,1
+3983,,Squirrel Hill,True,1
+3984,SC,Ft. Mill,True,1
+3985,,Springdale,True,1
+3986,WI,Brooklyn,True,1
+3987,NC,Stanley,True,1
+3988,,Midland,True,1
+3989,QC,Mirabel,True,1
+3990,OH,Grand River,True,1
+3991,,Sagamore Hills,True,1
+3992,AZ,Scottdale,True,1
+3993,,Indianola,True,1
+3994,AB,Sainte-Adèle,True,1
+3995,,Regent Square,True,1
+3996,NM,Las Vegas,True,1
+3997,,Heidelberg,True,1
+3998,PA,Downtown,True,1
+3999,NC,Blakeney,True,1
+4000,OH,Warrensville Hts.,True,1
+4001,WI,Cottage Grove,True,1
+4002,,Rosemère,True,1
+4003,NM,,True,1
+4004,ON,East Gwillimbury,True,1
+4005,PA,South Park Township,True,1
+4006,QC,Delson,True,1
+4007,QC,Côte Saint-Luc,True,1
+4008,,Plum,True,1
+4009,QC,Mont-Saint-Grégoire,True,1
+4010,,Warrensville Hts.,True,1
+4011,,Shaler Township,True,1
+4012,,Lower Lawrenceville,True,1
+4013,PA,Springdale,True,1
+4014,,Grand River,True,1
+4015,,Pointe-Aux-Trembles,True,1
+4016,,Glassport,True,1
+4017,,Shadyside,True,1
+4018,,Upper St Clair,True,1
+4019,,East Cleveland,True,1
+4020,,Saint-Henri,True,1
+4021,,Sunrise Manor,True,1
+4022,,Venetia,True,1
+4023,QC,Baie-d'Urfe,True,1
+4024,QC,St Leonard,True,1
+4025,QC,St-Jerome,True,1
+4026,,Baie-d'Urfe,True,1
+4027,NV,Sunrise Manor,True,1
+4028,QC,Mont-Saint-Hilaire,True,1
+4029,PA,Mckees Rocks,True,1
+4030,,Orange,True,1
+4031,OH,Concord,True,1
+4032,ON,Thornhil,True,1
+4033,PA,White Oak,True,1
+4034,,Copley,True,1
+4035,PA,Shadyside,True,1
+4036,,Garfield Heights,True,1
+4037,ON,Glen Williams,True,1
+4038,OH,Fairport Harbor,True,1
+4039,QC,Prévost,True,1
+4040,,Turtle Creek,True,1
+4041,PA,Venetia,True,1
+4042,,St-Leonard,True,1
+4043,,Ft. Mill,True,1
+4044,QC,Montréal-Nord,True,1
+4045,PA,Brookline,True,1
+4046,PA,Kennedy Township,True,1
+4047,,White Oak,True,1
